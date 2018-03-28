@@ -1,0 +1,3609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<add>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Button.cpp</field>
+    <field name="url">_button_8cpp_source.html#l00001</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Button.cpp</field>
+    <field name="url">_button_8cpp_source.html#l00032</field>
+    <field name="keywords"></field>
+    <field name="text">Button::Button uint8_t pin uint8_t puEnable uint8_t invert uint32_t dbTime _pin pin _puEnable puEnable _invert invert _dbTime dbTime _puEnable pinMode _pin INPUT_PULLUP pinMode _pin INPUT _state digitalRead _pin _invert _state _state _time millis _lastState _state _changed _lastChange _time</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Button.cpp</field>
+    <field name="url">_button_8cpp_source.html#l00054</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t Button::read uint32_t ms uint8_t pinVal ms millis pinVal digitalRead _pin _invert pinVal pinVal ms _lastChange _dbTime _time ms _changed _state _lastState _state _state pinVal _time ms _state _lastState _lastChange ms _changed _changed _state</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Button.cpp</field>
+    <field name="url">_button_8cpp_source.html#l00087</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t Button::isPressed _state</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Button.cpp</field>
+    <field name="url">_button_8cpp_source.html#l00092</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t Button::isReleased _state</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Button.cpp</field>
+    <field name="url">_button_8cpp_source.html#l00103</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t Button::wasPressed _state _changed</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Button.cpp</field>
+    <field name="url">_button_8cpp_source.html#l00108</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t Button::wasReleased _state _changed</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Button.cpp</field>
+    <field name="url">_button_8cpp_source.html#l00119</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t Button::pressedFor uint32_t ms _state _time _lastChange ms</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Button.cpp</field>
+    <field name="url">_button_8cpp_source.html#l00124</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t Button::releasedFor uint32_t ms _state _time _lastChange ms</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Button.cpp</field>
+    <field name="url">_button_8cpp_source.html#l00133</field>
+    <field name="keywords"></field>
+    <field name="text">uint32_t Button::lastChange _lastChange</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Button.h</field>
+    <field name="url">_button_8h_source.html#l00001</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Button.h</field>
+    <field name="url">_button_8h_source.html#l00018</field>
+    <field name="keywords"></field>
+    <field name="text">Button Button uint8_t pin uint8_t puEnable uint8_t invert uint32_t dbTime uint8_t read uint8_t isPressed uint8_t isReleased uint8_t wasPressed uint8_t wasReleased uint8_t pressedFor uint32_t ms uint8_t releasedFor uint32_t ms uint32_t lastChange uint8_t _pin uint8_t _puEnable uint8_t _invert uint8_t _state uint8_t _lastState uint8_t _changed uint32_t _time uint32_t _lastChange uint32_t _dbTime</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.cpp</field>
+    <field name="url">jm___scheduler_8cpp_source.html#l00001</field>
+    <field name="keywords"></field>
+    <field name="text">timestamp_t jm_Scheduler::tref timestamp_read jm_Scheduler jm_Scheduler::first jm_Scheduler jm_Scheduler::crnt jm_Scheduler jm_Scheduler::wakeup_first</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.cpp</field>
+    <field name="url">jm___scheduler_8cpp_source.html#l00042</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler::chain_insert jm_Scheduler prev1 jm_Scheduler next1 jm_Scheduler::first next1 jm_Scheduler_time_ge_time time next1 time prev1 next1 next1 next1 next prev1 prev1 next jm_Scheduler::first next next1</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.cpp</field>
+    <field name="url">jm___scheduler_8cpp_source.html#l00058</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler::chain_remove jm_Scheduler prev1 jm_Scheduler next1 jm_Scheduler::first next1 next1 prev1 next1 next1 next1 next next1 prev1 prev1 next next jm_Scheduler::first next next</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.cpp</field>
+    <field name="url">jm___scheduler_8cpp_source.html#l00082</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler::wakeup_chain_append jm_Scheduler wakeup_prev1 jm_Scheduler wakeup_next1 jm_Scheduler::wakeup_first wakeup_next1 wakeup_next1 wakeup_prev1 wakeup_next1 wakeup_next1 wakeup_next1 wakeup_next wakeup_prev1 wakeup_prev1 wakeup_next jm_Scheduler::wakeup_first</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.cpp</field>
+    <field name="url">jm___scheduler_8cpp_source.html#l00105</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler::wakeup_chain_remove jm_Scheduler wakeup_prev1 jm_Scheduler wakeup_next1 jm_Scheduler::wakeup_first wakeup_next1 wakeup_next1 wakeup_prev1 wakeup_prev1 wakeup_next wakeup_next jm_Scheduler::wakeup_first wakeup_next wakeup_next wakeup_prev1 wakeup_next1 wakeup_next1 wakeup_next1 wakeup_next</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.cpp</field>
+    <field name="url">jm___scheduler_8cpp_source.html#l00131</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler::jm_Scheduler func NULL time ival next NULL wakeup_time wakeup_next NULL wakeup_count started false stopping false yielded false func time ival next wakeup_time wakeup_next wakeup_count started stopping yielded</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.cpp</field>
+    <field name="url">jm___scheduler_8cpp_source.html#l00165</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler::~jm_Scheduler stop</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.cpp</field>
+    <field name="url">jm___scheduler_8cpp_source.html#l00170</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler::operator bool started</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.cpp</field>
+    <field name="url">jm___scheduler_8cpp_source.html#l00177</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler::display line Serial print line Serial print Serial print jm_Scheduler::tref Serial print F Serial print jm_Scheduler::first Serial print F Serial print jm_Scheduler::crnt Serial print F Serial print Serial print F Serial print time Serial print F Serial print ival Serial print F Serial print next Serial println Serial flush</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.cpp</field>
+    <field name="url">jm___scheduler_8cpp_source.html#l00225</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler::time_cycle jm_Scheduler::tref timestamp_read</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.cpp</field>
+    <field name="url">jm___scheduler_8cpp_source.html#l00230</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler::cycle jm_Scheduler::time_cycle cli jm_Scheduler::wakeup_first jm_Scheduler wakeup_first0 jm_Scheduler::wakeup_first jm_Scheduler::wakeup_first wakeup_first0 wakeup_next wakeup_first0 wakeup_next wakeup_first0 chain_remove wakeup_first0 next jm_Scheduler::first jm_Scheduler::first wakeup_first0 sei sei jm_Scheduler::first jm_Scheduler_tref_ge_time jm_Scheduler::first time jm_Scheduler::crnt jm_Scheduler::first jm_Scheduler::first jm_Scheduler::crnt next jm_Scheduler::crnt next jm_Scheduler::crnt func jm_Scheduler::crnt stopping jm_Scheduler::crnt ival jm_Scheduler::crnt started jm_Scheduler::crnt stopping jm_Scheduler::crnt wakeup_chain_remove jm_Scheduler::crnt time jm_Scheduler::crnt ival jm_Scheduler::crnt chain_insert jm_Scheduler::crnt</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.cpp</field>
+    <field name="url">jm___scheduler_8cpp_source.html#l00292</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler::yield jm_Scheduler::crnt jm_Scheduler crnt0 jm_Scheduler::crnt crnt0 yielded jm_Scheduler::crnt jm_Scheduler::cycle crnt0 yielded jm_Scheduler::crnt crnt0 jm_Scheduler::cycle</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.cpp</field>
+    <field name="url">jm___scheduler_8cpp_source.html#l00319</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler::sleep timestamp_t ival timestamp_t time1 jm_Scheduler_time_read ival jm_Scheduler_time_ge_time jm_Scheduler_time_read time1 jm_Scheduler::yield</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.cpp</field>
+    <field name="url">jm___scheduler_8cpp_source.html#l00328</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler::start voidfuncptr_t func func func time jm_Scheduler_time_read ival chain_insert wakeup_time wakeup_next wakeup_count started stopping yielded</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.cpp</field>
+    <field name="url">jm___scheduler_8cpp_source.html#l00346</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler::start voidfuncptr_t func timestamp_t ival func func time jm_Scheduler_time_read ival ival chain_insert wakeup_time wakeup_next wakeup_count started stopping yielded</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.cpp</field>
+    <field name="url">jm___scheduler_8cpp_source.html#l00364</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler::start voidfuncptr_t func timestamp_t time timestamp_t ival func func time time ival ival chain_insert wakeup_time wakeup_next wakeup_count started stopping yielded</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.cpp</field>
+    <field name="url">jm___scheduler_8cpp_source.html#l00382</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler::stop started stopping jm_Scheduler::crnt stopping started stopping yielded chain_remove</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.cpp</field>
+    <field name="url">jm___scheduler_8cpp_source.html#l00403</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler::rearm</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.cpp</field>
+    <field name="url">jm___scheduler_8cpp_source.html#l00408</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler::rearm_async time jm_Scheduler_time_read</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.cpp</field>
+    <field name="url">jm___scheduler_8cpp_source.html#l00414</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler::rearm timestamp_t ival ival ival</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.cpp</field>
+    <field name="url">jm___scheduler_8cpp_source.html#l00420</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler::rearm_async timestamp_t ival time jm_Scheduler_time_read ival ival</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.cpp</field>
+    <field name="url">jm___scheduler_8cpp_source.html#l00434</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler::rearm voidfuncptr_t func timestamp_t ival func func ival ival</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.cpp</field>
+    <field name="url">jm___scheduler_8cpp_source.html#l00441</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler::rearm_async voidfuncptr_t func timestamp_t ival time jm_Scheduler_time_read func func ival ival</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.cpp</field>
+    <field name="url">jm___scheduler_8cpp_source.html#l00459</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler::wakeup started wakeup_count wakeup_time timestamp_read wakeup_chain_append wakeup_count</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.cpp</field>
+    <field name="url">jm___scheduler_8cpp_source.html#l00476</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler::wakeup_read count cli wakeup_count count wakeup_count wakeup_count wakeup_chain_remove sei count</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.cpp</field>
+    <field name="url">jm___scheduler_8cpp_source.html#l00497</field>
+    <field name="keywords"></field>
+    <field name="text">yield jm_Scheduler::cycle</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00001</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00037</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00042</field>
+    <field name="keywords"></field>
+    <field name="text">void voidfuncptr_t void</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00046</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00050</field>
+    <field name="keywords"></field>
+    <field name="text">timestamp_t</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00059</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00072</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00073</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00075</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00076</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00077</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00078</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00079</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00083</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00084</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00085</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00087</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00088</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00089</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00091</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00100</field>
+    <field name="keywords"></field>
+    <field name="text">timestamp_t tref</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00101</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler first</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00102</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler crnt</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00104</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler wakeup_first</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00108</field>
+    <field name="keywords"></field>
+    <field name="text">voidfuncptr_t func</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00109</field>
+    <field name="keywords"></field>
+    <field name="text">timestamp_t time</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00110</field>
+    <field name="keywords"></field>
+    <field name="text">timestamp_t ival</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00112</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler next</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00114</field>
+    <field name="keywords"></field>
+    <field name="text">timestamp_t wakeup_time</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00115</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler wakeup_next</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00116</field>
+    <field name="keywords"></field>
+    <field name="text">wakeup_count chain_insert chain_remove wakeup_chain_append wakeup_chain_remove</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00125</field>
+    <field name="keywords"></field>
+    <field name="text">started</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00126</field>
+    <field name="keywords"></field>
+    <field name="text">stopping</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h_source.html#l00127</field>
+    <field name="keywords"></field>
+    <field name="text">yielded jm_Scheduler bool display line time_cycle cycle yield sleep timestamp_t ival start voidfuncptr_t func start voidfuncptr_t func timestamp_t ival start voidfuncptr_t func timestamp_t time timestamp_t ival stop rearm rearm_async rearm timestamp_t ival rearm_async timestamp_t ival rearm voidfuncptr_t func timestamp_t ival rearm_async voidfuncptr_t func timestamp_t ival wakeup wakeup_read yield</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00001</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::write uint8_t value send value Rs</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00018</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00019</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::write uint8_t value send value Rs</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00047</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::LiquidCrystal_I2C uint8_t lcd_Addr uint8_t lcd_cols uint8_t lcd_rows _Addr lcd_Addr _cols lcd_cols _rows lcd_rows _backlightval LCD_NOBACKLIGHT</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00055</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::init init_priv LiquidCrystal_I2C::init_priv Wire begin _displayfunction LCD_4BITMODE LCD_1LINE LCD_5x8DOTS begin _cols _rows</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00066</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::begin uint8_t cols uint8_t lines uint8_t dotsize lines _displayfunction LCD_2LINE _numlines lines dotsize lines _displayfunction LCD_5x10DOTS delay expanderWrite _backlightval delay write4bits x03 delayMicroseconds write4bits x03 delayMicroseconds write4bits x03 delayMicroseconds write4bits x02 command LCD_FUNCTIONSET _displayfunction _displaycontrol LCD_DISPLAYON LCD_CURSOROFF LCD_BLINKOFF display clear _displaymode LCD_ENTRYLEFT LCD_ENTRYSHIFTDECREMENT command LCD_ENTRYMODESET _displaymode home</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00127</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::clear command LCD_CLEARDISPLAY delayMicroseconds</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00132</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::home command LCD_RETURNHOME delayMicroseconds</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00137</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::setCursor uint8_t col uint8_t row row_offsets row _numlines row _numlines command LCD_SETDDRAMADDR col row_offsets row</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00146</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::noDisplay _displaycontrol LCD_DISPLAYON command LCD_DISPLAYCONTROL _displaycontrol</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00150</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::display _displaycontrol LCD_DISPLAYON command LCD_DISPLAYCONTROL _displaycontrol</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00156</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::noCursor _displaycontrol LCD_CURSORON command LCD_DISPLAYCONTROL _displaycontrol</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00160</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::cursor _displaycontrol LCD_CURSORON command LCD_DISPLAYCONTROL _displaycontrol</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00166</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::noBlink _displaycontrol LCD_BLINKON command LCD_DISPLAYCONTROL _displaycontrol</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00170</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::blink _displaycontrol LCD_BLINKON command LCD_DISPLAYCONTROL _displaycontrol</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00176</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::scrollDisplayLeft command LCD_CURSORSHIFT LCD_DISPLAYMOVE LCD_MOVELEFT</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00179</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::scrollDisplayRight command LCD_CURSORSHIFT LCD_DISPLAYMOVE LCD_MOVERIGHT</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00184</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::leftToRight _displaymode LCD_ENTRYLEFT command LCD_ENTRYMODESET _displaymode</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00190</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::rightToLeft _displaymode LCD_ENTRYLEFT command LCD_ENTRYMODESET _displaymode</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00196</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::autoscroll _displaymode LCD_ENTRYSHIFTINCREMENT command LCD_ENTRYMODESET _displaymode</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00202</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::noAutoscroll _displaymode LCD_ENTRYSHIFTINCREMENT command LCD_ENTRYMODESET _displaymode</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00209</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::createChar uint8_t location uint8_t charmap location command LCD_SETCGRAMADDR location i i i write charmap i</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00218</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::noBacklight _backlightval LCD_NOBACKLIGHT expanderWrite</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00223</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::backlight _backlightval LCD_BACKLIGHT expanderWrite</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00232</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::command uint8_t value send value LiquidCrystal_I2C::send uint8_t value uint8_t mode uint8_t highnib value uint8_t lownib value xf0 write4bits highnib mode write4bits lownib mode LiquidCrystal_I2C::write4bits uint8_t value expanderWrite value pulseEnable value LiquidCrystal_I2C::expanderWrite uint8_t _data Wire beginTransmission _Addr printIIC _data _backlightval Wire endTransmission LiquidCrystal_I2C::pulseEnable uint8_t _data expanderWrite _data En delayMicroseconds expanderWrite _data En delayMicroseconds</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00269</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::cursor_on cursor</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00273</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::cursor_off noCursor</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00277</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::blink_on blink</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00281</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::blink_off noBlink</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00285</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::load_custom_character uint8_t char_num uint8_t rows createChar char_num rows</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00289</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::setBacklight uint8_t new_val new_val backlight noBacklight</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00297</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::printstr c print c</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00305</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::off</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00306</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::on</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00307</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::setDelay cmdDelay charDelay</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00308</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t LiquidCrystal_I2C::status</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00309</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t LiquidCrystal_I2C::keypad</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00310</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t LiquidCrystal_I2C::init_bargraph uint8_t graphtype</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00311</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::draw_horizontal_graph uint8_t row uint8_t column uint8_t len uint8_t pixel_col_end</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00312</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::draw_vertical_graph uint8_t row uint8_t column uint8_t len uint8_t pixel_row_end</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp_source.html#l00313</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C::setContrast uint8_t new_val</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00001</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00010</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00011</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00012</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00013</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00014</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00015</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00016</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00017</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00020</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00021</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00022</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00023</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00026</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00027</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00028</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00029</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00030</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00031</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00034</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00035</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00036</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00037</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00040</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00041</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00042</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00043</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00044</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00045</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00048</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00049</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00051</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00052</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00053</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h_source.html#l00055</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C Print LiquidCrystal_I2C uint8_t lcd_Addr uint8_t lcd_cols uint8_t lcd_rows begin uint8_t cols uint8_t rows uint8_t charsize LCD_5x8DOTS clear home noDisplay display noBlink blink noCursor cursor scrollDisplayLeft scrollDisplayRight printLeft printRight leftToRight rightToLeft shiftIncrement shiftDecrement noBacklight backlight autoscroll noAutoscroll createChar uint8_t uint8_t setCursor uint8_t uint8_t write uint8_t write uint8_t command uint8_t init blink_on blink_off cursor_on cursor_off setBacklight uint8_t new_val load_custom_character uint8_t char_num uint8_t rows printstr uint8_t status setContrast uint8_t new_val uint8_t keypad setDelay on off uint8_t init_bargraph uint8_t graphtype draw_horizontal_graph uint8_t row uint8_t column uint8_t len uint8_t pixel_col_end draw_vertical_graph uint8_t row uint8_t column uint8_t len uint8_t pixel_col_end init_priv send uint8_t uint8_t write4bits uint8_t expanderWrite uint8_t pulseEnable uint8_t uint8_t _Addr uint8_t _displayfunction uint8_t _displaycontrol uint8_t _displaymode uint8_t _numlines uint8_t _cols uint8_t _rows uint8_t _backlightval</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyButton.cpp</field>
+    <field name="url">_my_button_8cpp_source.html#l00001</field>
+    <field name="keywords"></field>
+    <field name="text">Button b_M_ft BUTTON_M_FT_PIN PULLUP INVERT DEBOUNCE_MS Button b_SM BUTTON_SM_PIN PULLUP INVERT DEBOUNCE_MS Button b_RM BUTTON_RM_PIN PULLUP INVERT DEBOUNCE_MS Button b_CLR BUTTON_CLR_PIN PULLUP INVERT DEBOUNCE_MS Button b_ON_OFF BUTTON_ON_OFF_PIN PULLUP INVERT DEBOUNCE_MS</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyButton.cpp</field>
+    <field name="url">_my_button_8cpp_source.html#l00019</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t b_M_ft_State</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyButton.cpp</field>
+    <field name="url">_my_button_8cpp_source.html#l00020</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t b_SM_State</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyButton.cpp</field>
+    <field name="url">_my_button_8cpp_source.html#l00021</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t b_RM_State</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyButton.cpp</field>
+    <field name="url">_my_button_8cpp_source.html#l00022</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t b_CLR_State</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyButton.cpp</field>
+    <field name="url">_my_button_8cpp_source.html#l00023</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t b_ON_OFF_State</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyButton.cpp</field>
+    <field name="url">_my_button_8cpp_source.html#l00024</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t Clear_All_Button</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyButton.cpp</field>
+    <field name="url">_my_button_8cpp_source.html#l00026</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t Button_Setup b_M_ft_State OLD b_M_ft_State OLD b_SM_State OLD b_RM_State OLD b_CLR_State OLD b_ON_OFF_State OLD</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyButton.cpp</field>
+    <field name="url">_my_button_8cpp_source.html#l00037</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t Button_Acq b_M_ft read b_SM read b_RM read b_CLR read b_ON_OFF read</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyButton.cpp</field>
+    <field name="url">_my_button_8cpp_source.html#l00047</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t Button_Mng b_M_ft isPressed b_M_ft_State b_M_ft isReleased b_M_ft_State b_M_ft_State b_SM isPressed b_SM_State b_SM isReleased b_SM_State b_SM_State b_RM isPressed b_RM_State b_RM isReleased b_RM_State b_RM_State b_CLR isPressed b_CLR_State b_CLR isReleased b_CLR_State b_CLR_State b_ON_OFF isPressed b_ON_OFF_State b_ON_OFF isReleased b_ON_OFF_State b_ON_OFF_State Clear_All_Button b_M_ft_State OLD b_M_ft_State OLD b_SM_State OLD b_RM_State OLD b_CLR_State OLD b_ON_OFF_State OLD Clear_All_Button</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyButton.h</field>
+    <field name="url">_my_button_8h_source.html#l00001</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyButton.h</field>
+    <field name="url">_my_button_8h_source.html#l00010</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyButton.h</field>
+    <field name="url">_my_button_8h_source.html#l00011</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyButton.h</field>
+    <field name="url">_my_button_8h_source.html#l00012</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyButton.h</field>
+    <field name="url">_my_button_8h_source.html#l00013</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyButton.h</field>
+    <field name="url">_my_button_8h_source.html#l00014</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyButton.h</field>
+    <field name="url">_my_button_8h_source.html#l00015</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyButton.h</field>
+    <field name="url">_my_button_8h_source.html#l00016</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyButton.h</field>
+    <field name="url">_my_button_8h_source.html#l00019</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyButton.h</field>
+    <field name="url">_my_button_8h_source.html#l00021</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyButton.h</field>
+    <field name="url">_my_button_8h_source.html#l00022</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyButton.h</field>
+    <field name="url">_my_button_8h_source.html#l00023</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t b_M_ft_State uint8_t b_SM_State uint8_t b_RM_State uint8_t b_CLR_State uint8_t b_ON_OFF_State uint8_t Clear_All_Button uint8_t Button_Setup uint8_t Button_Acq uint8_t Button_Mng</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MySensor.cpp</field>
+    <field name="url">_my_sensor_8cpp_source.html#l00001</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MySensor.cpp</field>
+    <field name="url">_my_sensor_8cpp_source.html#l00012</field>
+    <field name="keywords"></field>
+    <field name="text">Sensor</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MySensor.cpp</field>
+    <field name="url">_my_sensor_8cpp_source.html#l00016</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t b0</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MySensor.cpp</field>
+    <field name="url">_my_sensor_8cpp_source.html#l00017</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t b1</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MySensor.cpp</field>
+    <field name="url">_my_sensor_8cpp_source.html#l00018</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t b2</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MySensor.cpp</field>
+    <field name="url">_my_sensor_8cpp_source.html#l00019</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t b3</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MySensor.cpp</field>
+    <field name="url">_my_sensor_8cpp_source.html#l00020</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t b4 Sensor_Bits</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MySensor.cpp</field>
+    <field name="url">_my_sensor_8cpp_source.html#l00022</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t Data</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MySensor.cpp</field>
+    <field name="url">_my_sensor_8cpp_source.html#l00025</field>
+    <field name="keywords"></field>
+    <field name="text">Sensor_Value</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MySensor.cpp</field>
+    <field name="url">_my_sensor_8cpp_source.html#l00026</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t Sensor_Data_Old</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MySensor.cpp</field>
+    <field name="url">_my_sensor_8cpp_source.html#l00028</field>
+    <field name="keywords"></field>
+    <field name="text">Sensor S1</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MySensor.cpp</field>
+    <field name="url">_my_sensor_8cpp_source.html#l00030</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t Sensor_Setup pinMode DIST_SENSOR_0_PIN INPUT_PULLUP pinMode DIST_SENSOR_1_PIN INPUT_PULLUP pinMode DIST_SENSOR_2_PIN INPUT_PULLUP pinMode DIST_SENSOR_3_PIN INPUT_PULLUP pinMode DIST_SENSOR_4_PIN INPUT_PULLUP</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MySensor.cpp</field>
+    <field name="url">_my_sensor_8cpp_source.html#l00040</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t Sensor_Acq S1 Sensor_Bits b0 digitalRead DIST_SENSOR_0_PIN S1 Sensor_Bits b1 digitalRead DIST_SENSOR_1_PIN S1 Sensor_Bits b2 digitalRead DIST_SENSOR_2_PIN S1 Sensor_Bits b3 digitalRead DIST_SENSOR_3_PIN S1 Sensor_Bits b4 digitalRead DIST_SENSOR_4_PIN</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MySensor.cpp</field>
+    <field name="url">_my_sensor_8cpp_source.html#l00050</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t Sensor_Mng S1 Sensor_Bits b0 S1 Sensor_Bits b1 S1 Sensor_Bits b2 S1 Sensor_Bits b3 S1 Sensor_Bits b4 Sensor_Data_Old S1 Data Sensor_Data_Old S1 Data Sensor_Value Sensor_Data_Old S1 Data Sensor_Value Sensor_Data_Old S1 Data Sensor_Value Sensor_Data_Old S1 Data Sensor_Value Sensor_Data_Old S1 Data</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MySensor.cpp</field>
+    <field name="url">_my_sensor_8cpp_source.html#l00082</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t Sensor_Act</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MySensor.h</field>
+    <field name="url">_my_sensor_8h_source.html#l00001</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MySensor.h</field>
+    <field name="url">_my_sensor_8h_source.html#l00009</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MySensor.h</field>
+    <field name="url">_my_sensor_8h_source.html#l00010</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MySensor.h</field>
+    <field name="url">_my_sensor_8h_source.html#l00011</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MySensor.h</field>
+    <field name="url">_my_sensor_8h_source.html#l00012</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MySensor.h</field>
+    <field name="url">_my_sensor_8h_source.html#l00013</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t Sensor_Setup uint8_t Sensor_Acq uint8_t Sensor_Mng</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyStateMachine.cpp</field>
+    <field name="url">_my_state_machine_8cpp_source.html#l00001</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyStateMachine.cpp</field>
+    <field name="url">_my_state_machine_8cpp_source.html#l00015</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t StateMachine</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyStateMachine.cpp</field>
+    <field name="url">_my_state_machine_8cpp_source.html#l00016</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t Nr</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyStateMachine.cpp</field>
+    <field name="url">_my_state_machine_8cpp_source.html#l00017</field>
+    <field name="keywords"></field>
+    <field name="text">Length</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyStateMachine.cpp</field>
+    <field name="url">_my_state_machine_8cpp_source.html#l00018</field>
+    <field name="keywords"></field>
+    <field name="text">Width</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyStateMachine.cpp</field>
+    <field name="url">_my_state_machine_8cpp_source.html#l00019</field>
+    <field name="keywords"></field>
+    <field name="text">Area</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyStateMachine.cpp</field>
+    <field name="url">_my_state_machine_8cpp_source.html#l00020</field>
+    <field name="keywords"></field>
+    <field name="text">AreaSum</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyStateMachine.cpp</field>
+    <field name="url">_my_state_machine_8cpp_source.html#l00021</field>
+    <field name="keywords"></field>
+    <field name="text">Rate</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyStateMachine.cpp</field>
+    <field name="url">_my_state_machine_8cpp_source.html#l00022</field>
+    <field name="keywords"></field>
+    <field name="text">Rate_old</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyStateMachine.cpp</field>
+    <field name="url">_my_state_machine_8cpp_source.html#l00024</field>
+    <field name="keywords"></field>
+    <field name="text">StateMachine_Setup uint8_t Rate_Integer Rate_Decimal StateMachine MEASURE_X Rate_Integer EEPROM read RATE_ADDRESS Serial print Serial println Rate_Integer Rate_Integer StateMachine SETTINGS Req_Page Rate_Decimal Rate_Integer Rate_Integer Rate_Integer Rate float Rate_Decimal Rate Rate Rate Rate Rate_Integer Rate_old Rate Serial print Serial println Rate</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyStateMachine.cpp</field>
+    <field name="url">_my_state_machine_8cpp_source.html#l00054</field>
+    <field name="keywords"></field>
+    <field name="text">MyStateMachine_Mng Serial print Serial println Area Serial print Serial println AreaSum StateMachine MEASURE_X Req_Page Serial println PRESSED b_M_ft_State b_M_ft_State OLD Length Length RELEASED b_RM_State b_RM_State OLD Length StateMachine MEASURE_Y Req_Page Clear_All_Button PRESSED b_CLR_State b_CLR_State OLD Length Update_Page_1 Nr Length Width Area MEASURE_Y Serial println RELEASED b_RM_State b_RM_State OLD Width Nr Nr AreaSum AreaSum Area Length Width Area StateMachine MEASURE_X Req_Page Clear_All_Button RELEASED b_SM_State b_SM_State OLD Width AreaSum AreaSum Area StateMachine SUMMARY Req_Page Clear_All_Button PRESSED b_M_ft_State b_M_ft_State OLD Width Width Area Length Width RELEASED b_CLR_State b_CLR_State OLD Width Area Update_Page_1 Nr Length Width Area SUMMARY Serial println RELEASED b_CLR_State b_CLR_State OLD Nr Length Width Area AreaSum StateMachine MEASURE_X Req_Page Clear_All_Button Update_Page_2 Nr AreaSum AreaSum Rate SETTINGS Serial println PRESSED b_SM_State Rate b_SM_State OLD Rate Rate PRESSED b_RM_State Rate b_RM_State OLD Rate Rate RELEASED b_M_ft_State b_M_ft_State OLD Rate Rate_old Serial print Serial println Rate EEPROM update RATE_ADDRESS uint8_t Rate StateMachine MEASURE_X Req_Page Clear_All_Button Update_Page_3 Rate</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyStateMachine.h</field>
+    <field name="url">_my_state_machine_8h_source.html#l00001</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyStateMachine.h</field>
+    <field name="url">_my_state_machine_8h_source.html#l00010</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyStateMachine.h</field>
+    <field name="url">_my_state_machine_8h_source.html#l00011</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyStateMachine.h</field>
+    <field name="url">_my_state_machine_8h_source.html#l00012</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyStateMachine.h</field>
+    <field name="url">_my_state_machine_8h_source.html#l00013</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">MyStateMachine.h</field>
+    <field name="url">_my_state_machine_8h_source.html#l00014</field>
+    <field name="keywords"></field>
+    <field name="text">StateMachine_Setup MyStateMachine_Mng</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Page.cpp</field>
+    <field name="url">_page_8cpp_source.html#l00001</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C lcd x3F</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Page.cpp</field>
+    <field name="url">_page_8cpp_source.html#l00006</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t Act_Page</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Page.cpp</field>
+    <field name="url">_page_8cpp_source.html#l00007</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t Req_Page</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Page.cpp</field>
+    <field name="url">_page_8cpp_source.html#l00009</field>
+    <field name="keywords"></field>
+    <field name="text">Page_Setup lcd init lcd backlight Req_Page MEASURE_X Act_Page</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Page.cpp</field>
+    <field name="url">_page_8cpp_source.html#l00017</field>
+    <field name="keywords"></field>
+    <field name="text">Page_Act uint8_t Req_Page Act_Page Req_Page lcd clear Req_Page Page_1 Act_Page Page_2 Act_Page Page_3 Act_Page</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Page.cpp</field>
+    <field name="url">_page_8cpp_source.html#l00048</field>
+    <field name="keywords"></field>
+    <field name="text">Page_1 lcd clear lcd setCursor lcd print lcd setCursor lcd print lcd setCursor lcd print lcd setCursor lcd print lcd setCursor lcd print lcd setCursor lcd print lcd setCursor lcd print</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Page.cpp</field>
+    <field name="url">_page_8cpp_source.html#l00074</field>
+    <field name="keywords"></field>
+    <field name="text">Update_Page_1 Nr Length Width Area Nr lcd setCursor lcd print String Nr lcd setCursor lcd setCursor lcd print String Nr lcd setCursor lcd print String Length lcd setCursor lcd print String Length lcd setCursor lcd setCursor lcd print String Length lcd setCursor lcd print String Width lcd setCursor lcd print String Width lcd setCursor lcd setCursor lcd print String Width lcd setCursor lcd print String Area lcd setCursor lcd print String Area lcd setCursor Area lcd setCursor lcd setCursor lcd print String Area</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Page.cpp</field>
+    <field name="url">_page_8cpp_source.html#l00170</field>
+    <field name="keywords"></field>
+    <field name="text">Page_2 lcd clear lcd setCursor lcd print lcd setCursor lcd print lcd setCursor lcd print lcd setCursor lcd print lcd setCursor lcd print lcd setCursor lcd print</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Page.cpp</field>
+    <field name="url">_page_8cpp_source.html#l00193</field>
+    <field name="keywords"></field>
+    <field name="text">Update_Page_2 Nr Area Sum Nr lcd setCursor lcd print String Nr lcd setCursor lcd setCursor lcd print String Nr lcd setCursor lcd print String Area lcd setCursor lcd print String Area lcd setCursor Area lcd setCursor lcd setCursor lcd print String Area lcd setCursor lcd print String Sum lcd setCursor lcd print String Sum lcd setCursor Sum lcd setCursor lcd setCursor lcd print String Sum</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Page.cpp</field>
+    <field name="url">_page_8cpp_source.html#l00273</field>
+    <field name="keywords"></field>
+    <field name="text">Page_3 lcd clear lcd setCursor lcd print lcd setCursor lcd print lcd setCursor lcd print lcd setCursor lcd print</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Page.cpp</field>
+    <field name="url">_page_8cpp_source.html#l00292</field>
+    <field name="keywords"></field>
+    <field name="text">Update_Page_3 Rate lcd setCursor lcd print String Rate</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Page.h</field>
+    <field name="url">_page_8h_source.html#l00001</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t Req_Page Page_Setup Page_Act uint8_t Page_1 Update_Page_1 Page_2 Update_Page_2 Page_3 Update_Page_3</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">main.cpp</field>
+    <field name="url">main_8cpp_source.html#l00001</field>
+    <field name="keywords"></field>
+    <field name="text">Task_10ms Task_100ms Task_300ms</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">main.cpp</field>
+    <field name="url">main_8cpp_source.html#l00022</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler Sch_10ms</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">main.cpp</field>
+    <field name="url">main_8cpp_source.html#l00023</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler Sch_100ms</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">main.cpp</field>
+    <field name="url">main_8cpp_source.html#l00024</field>
+    <field name="keywords"></field>
+    <field name="text">jm_Scheduler Sch_300ms</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">main.cpp</field>
+    <field name="url">main_8cpp_source.html#l00035</field>
+    <field name="keywords"></field>
+    <field name="text">setup Serial begin Serial println Button_Setup Page_Setup Sensor_Setup StateMachine_Setup Sch_10ms start Task_10ms Sch_100ms start Task_100ms Sch_300ms start Task_300ms Serial println</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">main.cpp</field>
+    <field name="url">main_8cpp_source.html#l00059</field>
+    <field name="keywords"></field>
+    <field name="text">loop jm_Scheduler::cycle</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">main.cpp</field>
+    <field name="url">main_8cpp_source.html#l00072</field>
+    <field name="keywords"></field>
+    <field name="text">Task_10ms Button_Acq Sensor_Acq</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">main.cpp</field>
+    <field name="url">main_8cpp_source.html#l00090</field>
+    <field name="keywords"></field>
+    <field name="text">Task_100ms Button_Mng Sensor_Mng</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">main.cpp</field>
+    <field name="url">main_8cpp_source.html#l00102</field>
+    <field name="keywords"></field>
+    <field name="text">Task_300ms Page_Act Req_Page MyStateMachine_Mng</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">main.h</field>
+    <field name="url">main_8h_source.html#l00001</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">Button.cpp</field>
+    <field name="url">_button_8cpp.html</field>
+    <field name="keywords">Button.cpp</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">Button.h</field>
+    <field name="url">_button_8h.html</field>
+    <field name="keywords">Button.h</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">README.md</field>
+    <field name="url">_button___i_d77_2_r_e_a_d_m_e_8md.html</field>
+    <field name="keywords">README.md</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">README.md</field>
+    <field name="url">jm___scheduler___i_d1549_2_r_e_a_d_m_e_8md.html</field>
+    <field name="keywords">README.md</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">README.md</field>
+    <field name="url">_liquid_crystal___i2_c___i_d576_2_r_e_a_d_m_e_8md.html</field>
+    <field name="keywords">README.md</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">jm_Scheduler.cpp</field>
+    <field name="url">jm___scheduler_8cpp.html</field>
+    <field name="keywords">jm_Scheduler.cpp</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">yield</field>
+    <field name="args">(void)</field>
+    <field name="url">jm___scheduler_8cpp.html#a7cb51f5c2b5cad3766f19eb69c92793b</field>
+    <field name="keywords">yield</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">jm_Scheduler.h</field>
+    <field name="url">jm___scheduler_8h.html</field>
+    <field name="keywords">jm_Scheduler.h</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">assert</field>
+    <field name="args">(e)</field>
+    <field name="url">jm___scheduler_8h.html#ad6d5aaa966ca7424f7cb9bd01f2c838b</field>
+    <field name="keywords">assert</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">cli</field>
+    <field name="args">()</field>
+    <field name="url">jm___scheduler_8h.html#a68c330e94fe121eba993e5a5973c3162</field>
+    <field name="keywords">cli</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">sei</field>
+    <field name="args">()</field>
+    <field name="url">jm___scheduler_8h.html#aad5ebd34cb344c26ac87594f79b06b73</field>
+    <field name="keywords">sei</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">timestamp_read</field>
+    <field name="args">()</field>
+    <field name="url">jm___scheduler_8h.html#a4a6adfc774160c30ed1ad176ccefe65c</field>
+    <field name="keywords">timestamp_read</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">TIMESTAMP_DEAD</field>
+    <field name="url">jm___scheduler_8h.html#aaf087f6016be2b69eac29349f309b3ef</field>
+    <field name="keywords">TIMESTAMP_DEAD</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">TIMESTAMP_TMAX</field>
+    <field name="url">jm___scheduler_8h.html#a240ef56821b967aa79b1f8003410942a</field>
+    <field name="keywords">TIMESTAMP_TMAX</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">TIMESTAMP_1US</field>
+    <field name="url">jm___scheduler_8h.html#a56ba371de75ee433f6faa896e4ad1452</field>
+    <field name="keywords">TIMESTAMP_1US</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">TIMESTAMP_1MS</field>
+    <field name="url">jm___scheduler_8h.html#a6b187a2b2b5de7673d9d16ca4a4ad1c7</field>
+    <field name="keywords">TIMESTAMP_1MS</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">TIMESTAMP_1SEC</field>
+    <field name="url">jm___scheduler_8h.html#ae15d9b6ec34c595e67e7222cc9ed10bc</field>
+    <field name="keywords">TIMESTAMP_1SEC</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">TIMESTAMP_1MIN</field>
+    <field name="url">jm___scheduler_8h.html#a45f71859ade3459b1dc082aa3ca269ad</field>
+    <field name="keywords">TIMESTAMP_1MIN</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">TIMESTAMP_1HOUR</field>
+    <field name="url">jm___scheduler_8h.html#a31a69960f00d81a6648671eb722f8465</field>
+    <field name="keywords">TIMESTAMP_1HOUR</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">jm_Scheduler_time_read</field>
+    <field name="args">()</field>
+    <field name="url">jm___scheduler_8h.html#a7c328ba5cee2bc4cda9f4ac2d187aa77</field>
+    <field name="keywords">jm_Scheduler_time_read</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">jm_Scheduler_tref_read</field>
+    <field name="args">()</field>
+    <field name="url">jm___scheduler_8h.html#abe14750f01acc462ac735f0f32d5b469</field>
+    <field name="keywords">jm_Scheduler_tref_read</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">jm_Scheduler_tref_ival</field>
+    <field name="args">(ival)</field>
+    <field name="url">jm___scheduler_8h.html#add3bb778cbd73c53278b4481cb36dbdc</field>
+    <field name="keywords">jm_Scheduler_tref_ival</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">jm_Scheduler_time_ge_time</field>
+    <field name="args">(tref, time)</field>
+    <field name="url">jm___scheduler_8h.html#a781e642b22181ba13d4afd454fa84fd9</field>
+    <field name="keywords">jm_Scheduler_time_ge_time</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">jm_Scheduler_tref_ge_time</field>
+    <field name="args">(time)</field>
+    <field name="url">jm___scheduler_8h.html#a9e1f3bc7bc0da8ddd88143f0b3254d86</field>
+    <field name="keywords">jm_Scheduler_tref_ge_time</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">jm_Scheduler_tref_ival_ge_time</field>
+    <field name="args">(ival, time)</field>
+    <field name="url">jm___scheduler_8h.html#aa791deb416c9b65fc986925e81d53755</field>
+    <field name="keywords">jm_Scheduler_tref_ival_ge_time</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">typedef</field>
+    <field name="name">voidfuncptr_t</field>
+    <field name="args">)(void)</field>
+    <field name="url">jm___scheduler_8h.html#a6e5037c7c2d7be541012f726696be40d</field>
+    <field name="keywords">voidfuncptr_t</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">yield</field>
+    <field name="args">(void)</field>
+    <field name="url">jm___scheduler_8h.html#a7cb51f5c2b5cad3766f19eb69c92793b</field>
+    <field name="keywords">yield</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">LiquidCrystal_I2C.cpp</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp.html</field>
+    <field name="keywords">LiquidCrystal_I2C.cpp</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">printIIC</field>
+    <field name="args">(args)</field>
+    <field name="url">_liquid_crystal___i2_c_8cpp.html#af178f7c1504ac1e364eab5cbe1454f7f</field>
+    <field name="keywords">printIIC</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">LiquidCrystal_I2C.h</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html</field>
+    <field name="keywords">LiquidCrystal_I2C.h</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_CLEARDISPLAY</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#acc3509bc0442b41e2b816555de473ed2</field>
+    <field name="keywords">LCD_CLEARDISPLAY</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_RETURNHOME</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#a154c86a887633d0f6d9988e4dbb1f419</field>
+    <field name="keywords">LCD_RETURNHOME</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_ENTRYMODESET</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#a5597e1d5819ea2f0734ad4313abf6703</field>
+    <field name="keywords">LCD_ENTRYMODESET</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_DISPLAYCONTROL</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#adfb8b2b8b8a08d7313504d7a4f89d99f</field>
+    <field name="keywords">LCD_DISPLAYCONTROL</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_CURSORSHIFT</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#a61f16a2b7550e4700f7898a7587c5594</field>
+    <field name="keywords">LCD_CURSORSHIFT</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_FUNCTIONSET</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#aaef882ae70d1f485cd132815d9716111</field>
+    <field name="keywords">LCD_FUNCTIONSET</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_SETCGRAMADDR</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#aae6ea856879c11dee58493184582a52f</field>
+    <field name="keywords">LCD_SETCGRAMADDR</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_SETDDRAMADDR</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#a15008b832807a208d9d88c74e6751ebf</field>
+    <field name="keywords">LCD_SETDDRAMADDR</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_ENTRYRIGHT</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#a43c26ba2e66880fac95ef640b56873ad</field>
+    <field name="keywords">LCD_ENTRYRIGHT</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_ENTRYLEFT</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#ae7c6309fce6200bd7526d090a4a84dd0</field>
+    <field name="keywords">LCD_ENTRYLEFT</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_ENTRYSHIFTINCREMENT</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#aa2cf1d0f4a319e53c009cffe1184466c</field>
+    <field name="keywords">LCD_ENTRYSHIFTINCREMENT</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_ENTRYSHIFTDECREMENT</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#a049ee97e98d04788c1da9a55590fbe42</field>
+    <field name="keywords">LCD_ENTRYSHIFTDECREMENT</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_DISPLAYON</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#a76236ae8317b34bbc98ea56bc0a2639c</field>
+    <field name="keywords">LCD_DISPLAYON</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_DISPLAYOFF</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#a257ebe775cac7140cf82aa40d8ce545a</field>
+    <field name="keywords">LCD_DISPLAYOFF</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_CURSORON</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#ab67f0adccde68de88eee0513fdfc4574</field>
+    <field name="keywords">LCD_CURSORON</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_CURSOROFF</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#a32b194a3adaa0a0bb69acee2e6a754fa</field>
+    <field name="keywords">LCD_CURSOROFF</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_BLINKON</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#ac3b19d4e6553b9bbf18a23387e439206</field>
+    <field name="keywords">LCD_BLINKON</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_BLINKOFF</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#a4b28243034cec656b0ed490ba6979752</field>
+    <field name="keywords">LCD_BLINKOFF</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_DISPLAYMOVE</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#ab2f7b67abfac33f610acfd5d7a971f40</field>
+    <field name="keywords">LCD_DISPLAYMOVE</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_CURSORMOVE</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#ac21f0302ac4136775877d5f4759e4f74</field>
+    <field name="keywords">LCD_CURSORMOVE</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_MOVERIGHT</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#acf5999180233790bb2c9902efde58f7f</field>
+    <field name="keywords">LCD_MOVERIGHT</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_MOVELEFT</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#aafb86adb0dfca1e65d65b2cd1946a009</field>
+    <field name="keywords">LCD_MOVELEFT</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_8BITMODE</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#a59a57ca857dae5d89eb5f2a38c4ac6f0</field>
+    <field name="keywords">LCD_8BITMODE</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_4BITMODE</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#ab8c35d355d2372090c7a347e961c9224</field>
+    <field name="keywords">LCD_4BITMODE</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_2LINE</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#a7987e93538df2819583ba43b81ddbb25</field>
+    <field name="keywords">LCD_2LINE</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_1LINE</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#a8c85cf88d8af66a47c42249d81c94641</field>
+    <field name="keywords">LCD_1LINE</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_5x10DOTS</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#abb3210156d88d3fe18c9352eb161fe42</field>
+    <field name="keywords">LCD_5x10DOTS</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_5x8DOTS</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#a9ef57e724c1b846dae0f531aff6fb464</field>
+    <field name="keywords">LCD_5x8DOTS</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_BACKLIGHT</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#ac059d24dfe9c1e1f7c07cb7869a1833b</field>
+    <field name="keywords">LCD_BACKLIGHT</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">LCD_NOBACKLIGHT</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#a65fa786d6e31fe8b1aa51784a9736581</field>
+    <field name="keywords">LCD_NOBACKLIGHT</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">En</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#ab5ef25ebfe582f7bf0d93e2770548e2c</field>
+    <field name="keywords">En</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">Rw</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#a98b6a2661a04ebbc1b3f38da70306814</field>
+    <field name="keywords">Rw</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">Rs</field>
+    <field name="url">_liquid_crystal___i2_c_8h.html#a345d1a871beb9e772c3bf9ef75412bb5</field>
+    <field name="keywords">Rs</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">MyButton.cpp</field>
+    <field name="url">_my_button_8cpp.html</field>
+    <field name="keywords">MyButton.cpp</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Button_Setup</field>
+    <field name="args">()</field>
+    <field name="url">_my_button_8cpp.html#adba17d26b82126fa87aa04df0e239a01</field>
+    <field name="keywords">Button_Setup</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Button_Acq</field>
+    <field name="args">()</field>
+    <field name="url">_my_button_8cpp.html#a08807639a00684a55a850a87666169e0</field>
+    <field name="keywords">Button_Acq</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Button_Mng</field>
+    <field name="args">()</field>
+    <field name="url">_my_button_8cpp.html#af6cc3e46b3981da27181207e3ce6c9c7</field>
+    <field name="keywords">Button_Mng</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">b_M_ft</field>
+    <field name="args">(BUTTON_M_FT_PIN, PULLUP, INVERT, DEBOUNCE_MS)</field>
+    <field name="url">_my_button_8cpp.html#a013a2849758bc9bda36940f1016c096e</field>
+    <field name="keywords">b_M_ft</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">b_SM</field>
+    <field name="args">(BUTTON_SM_PIN, PULLUP, INVERT, DEBOUNCE_MS)</field>
+    <field name="url">_my_button_8cpp.html#a45528e3726e4d6cacecb22bf54db00a2</field>
+    <field name="keywords">b_SM</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">b_RM</field>
+    <field name="args">(BUTTON_RM_PIN, PULLUP, INVERT, DEBOUNCE_MS)</field>
+    <field name="url">_my_button_8cpp.html#a9a42ca76e2882e99b30353a525ceca4c</field>
+    <field name="keywords">b_RM</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">b_CLR</field>
+    <field name="args">(BUTTON_CLR_PIN, PULLUP, INVERT, DEBOUNCE_MS)</field>
+    <field name="url">_my_button_8cpp.html#aaf9f69fd9e45118bd21d7b59d194b048</field>
+    <field name="keywords">b_CLR</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">b_ON_OFF</field>
+    <field name="args">(BUTTON_ON_OFF_PIN, PULLUP, INVERT, DEBOUNCE_MS)</field>
+    <field name="url">_my_button_8cpp.html#abbbec8b6447c442e6bc61f332f69981a</field>
+    <field name="keywords">b_ON_OFF</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">b_M_ft_State</field>
+    <field name="url">_my_button_8cpp.html#ac7bb529e2d2a363547d85ef2f55580b6</field>
+    <field name="keywords">b_M_ft_State</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">b_SM_State</field>
+    <field name="url">_my_button_8cpp.html#a6301e89d8774218544a25d940d2a928c</field>
+    <field name="keywords">b_SM_State</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">b_RM_State</field>
+    <field name="url">_my_button_8cpp.html#afc85dcf687f60f1f1a603acd25eab517</field>
+    <field name="keywords">b_RM_State</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">b_CLR_State</field>
+    <field name="url">_my_button_8cpp.html#adb3e09757c312b95747b9310397ad10c</field>
+    <field name="keywords">b_CLR_State</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">b_ON_OFF_State</field>
+    <field name="url">_my_button_8cpp.html#a75434ff200b00a5119df9690d8c6431b</field>
+    <field name="keywords">b_ON_OFF_State</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">Clear_All_Button</field>
+    <field name="url">_my_button_8cpp.html#ad41e3186a0d89c41761088cd623af31d</field>
+    <field name="keywords">Clear_All_Button</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">MyButton.h</field>
+    <field name="url">_my_button_8h.html</field>
+    <field name="keywords">MyButton.h</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">BUTTON_ON_OFF_PIN</field>
+    <field name="url">_my_button_8h.html#ae0b74e79bb64c08c4aae5297ebe6bd40</field>
+    <field name="keywords">BUTTON_ON_OFF_PIN</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">BUTTON_CLR_PIN</field>
+    <field name="url">_my_button_8h.html#aa3ec29c49c0af1f75023dcfdafac4e21</field>
+    <field name="keywords">BUTTON_CLR_PIN</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">BUTTON_RM_PIN</field>
+    <field name="url">_my_button_8h.html#a1b42b0976a9fcc2103450c548adf0116</field>
+    <field name="keywords">BUTTON_RM_PIN</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">BUTTON_SM_PIN</field>
+    <field name="url">_my_button_8h.html#af43d9e97b3da83eecaa32f3ba5a19c8a</field>
+    <field name="keywords">BUTTON_SM_PIN</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">BUTTON_M_FT_PIN</field>
+    <field name="url">_my_button_8h.html#a5363e24904aa1c760f34109d00373fee</field>
+    <field name="keywords">BUTTON_M_FT_PIN</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">PULLUP</field>
+    <field name="url">_my_button_8h.html#aa65f05495aa2b9e5d89a7e79886a596e</field>
+    <field name="keywords">PULLUP</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">INVERT</field>
+    <field name="url">_my_button_8h.html#a95febca84b9b6b5b9cfd278e44ffc56f</field>
+    <field name="keywords">INVERT</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">DEBOUNCE_MS</field>
+    <field name="url">_my_button_8h.html#add56dedbc09f82766e39588e01978e7d</field>
+    <field name="keywords">DEBOUNCE_MS</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">PRESSED</field>
+    <field name="url">_my_button_8h.html#a654adff3c664f27f0b29c24af818dd26</field>
+    <field name="keywords">PRESSED</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">RELEASED</field>
+    <field name="url">_my_button_8h.html#ad74b7f5218b46c8332cd531df7178d45</field>
+    <field name="keywords">RELEASED</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">OLD</field>
+    <field name="url">_my_button_8h.html#a15484b7c03434f6dbd2016eaefd0df9f</field>
+    <field name="keywords">OLD</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Button_Setup</field>
+    <field name="args">()</field>
+    <field name="url">_my_button_8h.html#adba17d26b82126fa87aa04df0e239a01</field>
+    <field name="keywords">Button_Setup</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Button_Acq</field>
+    <field name="args">()</field>
+    <field name="url">_my_button_8h.html#a08807639a00684a55a850a87666169e0</field>
+    <field name="keywords">Button_Acq</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Button_Mng</field>
+    <field name="args">()</field>
+    <field name="url">_my_button_8h.html#af6cc3e46b3981da27181207e3ce6c9c7</field>
+    <field name="keywords">Button_Mng</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">b_M_ft_State</field>
+    <field name="url">_my_button_8h.html#ac7bb529e2d2a363547d85ef2f55580b6</field>
+    <field name="keywords">b_M_ft_State</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">b_SM_State</field>
+    <field name="url">_my_button_8h.html#a6301e89d8774218544a25d940d2a928c</field>
+    <field name="keywords">b_SM_State</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">b_RM_State</field>
+    <field name="url">_my_button_8h.html#afc85dcf687f60f1f1a603acd25eab517</field>
+    <field name="keywords">b_RM_State</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">b_CLR_State</field>
+    <field name="url">_my_button_8h.html#adb3e09757c312b95747b9310397ad10c</field>
+    <field name="keywords">b_CLR_State</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">b_ON_OFF_State</field>
+    <field name="url">_my_button_8h.html#a75434ff200b00a5119df9690d8c6431b</field>
+    <field name="keywords">b_ON_OFF_State</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">Clear_All_Button</field>
+    <field name="url">_my_button_8h.html#ad41e3186a0d89c41761088cd623af31d</field>
+    <field name="keywords">Clear_All_Button</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">MySensor.cpp</field>
+    <field name="url">_my_sensor_8cpp.html</field>
+    <field name="keywords">MySensor.cpp</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Sensor_Setup</field>
+    <field name="args">()</field>
+    <field name="url">_my_sensor_8cpp.html#a198ddd83d40f36761be81191718d7537</field>
+    <field name="keywords">Sensor_Setup</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Sensor_Acq</field>
+    <field name="args">()</field>
+    <field name="url">_my_sensor_8cpp.html#a6d3ee79d63bcc6a811d95a4ae099a89f</field>
+    <field name="keywords">Sensor_Acq</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Sensor_Mng</field>
+    <field name="args">()</field>
+    <field name="url">_my_sensor_8cpp.html#a02051b4611cf1213a563c0837aeda161</field>
+    <field name="keywords">Sensor_Mng</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Sensor_Act</field>
+    <field name="args">()</field>
+    <field name="url">_my_sensor_8cpp.html#a3cb51c370388eb7fe1d711f28b9166b3</field>
+    <field name="keywords">Sensor_Act</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">Sensor_Value</field>
+    <field name="url">_my_sensor_8cpp.html#a8a68a167463d9524ba12b7518a5db31b</field>
+    <field name="keywords">Sensor_Value</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">Sensor_Data_Old</field>
+    <field name="url">_my_sensor_8cpp.html#a61fbc9d837a0bd72029f04219876cd9d</field>
+    <field name="keywords">Sensor_Data_Old</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">S1</field>
+    <field name="url">_my_sensor_8cpp.html#a40afd57d2eda0bcb2da246af2e2ffa33</field>
+    <field name="keywords">S1</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">MySensor.h</field>
+    <field name="url">_my_sensor_8h.html</field>
+    <field name="keywords">MySensor.h</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">DIST_SENSOR_0_PIN</field>
+    <field name="url">_my_sensor_8h.html#a0d59fd8667fb380d40d80f28d93fcccc</field>
+    <field name="keywords">DIST_SENSOR_0_PIN</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">DIST_SENSOR_1_PIN</field>
+    <field name="url">_my_sensor_8h.html#a1ee51476ab2e36f915d1d4694ddc4c1c</field>
+    <field name="keywords">DIST_SENSOR_1_PIN</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">DIST_SENSOR_2_PIN</field>
+    <field name="url">_my_sensor_8h.html#a9cff9e10cd4a204d0df83b28c15f0ef4</field>
+    <field name="keywords">DIST_SENSOR_2_PIN</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">DIST_SENSOR_3_PIN</field>
+    <field name="url">_my_sensor_8h.html#ab3eac68a9f222ae7d4760b98a485d8ab</field>
+    <field name="keywords">DIST_SENSOR_3_PIN</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">DIST_SENSOR_4_PIN</field>
+    <field name="url">_my_sensor_8h.html#a7fc8ac2d7de7ce2fe9bbfef983e2201e</field>
+    <field name="keywords">DIST_SENSOR_4_PIN</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Sensor_Setup</field>
+    <field name="args">()</field>
+    <field name="url">_my_sensor_8h.html#a198ddd83d40f36761be81191718d7537</field>
+    <field name="keywords">Sensor_Setup</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Sensor_Acq</field>
+    <field name="args">()</field>
+    <field name="url">_my_sensor_8h.html#a6d3ee79d63bcc6a811d95a4ae099a89f</field>
+    <field name="keywords">Sensor_Acq</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Sensor_Mng</field>
+    <field name="args">()</field>
+    <field name="url">_my_sensor_8h.html#a02051b4611cf1213a563c0837aeda161</field>
+    <field name="keywords">Sensor_Mng</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">MyStateMachine.cpp</field>
+    <field name="url">_my_state_machine_8cpp.html</field>
+    <field name="keywords">MyStateMachine.cpp</field>
+    <field name="text">Balint Zoltan 27 Nov 2017 2017 Balint Zoltan</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">StateMachine_Setup</field>
+    <field name="args">()</field>
+    <field name="url">_my_state_machine_8cpp.html#a160556fe119d84e8d14ca40b0213e589</field>
+    <field name="keywords">StateMachine_Setup</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">MyStateMachine_Mng</field>
+    <field name="args">()</field>
+    <field name="url">_my_state_machine_8cpp.html#a0d49325facad1eeca64a239660e26158</field>
+    <field name="keywords">MyStateMachine_Mng</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">StateMachine</field>
+    <field name="url">_my_state_machine_8cpp.html#ac2c80d0a1d9be2692cd80f5a2676b834</field>
+    <field name="keywords">StateMachine</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">Nr</field>
+    <field name="url">_my_state_machine_8cpp.html#a32b3487e5c49436d8232136665f1815c</field>
+    <field name="keywords">Nr</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">Length</field>
+    <field name="url">_my_state_machine_8cpp.html#ab87d04698fba58ca22fe5ebecef0755e</field>
+    <field name="keywords">Length</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">Width</field>
+    <field name="url">_my_state_machine_8cpp.html#a7de4690b4c35b991ee86032c52d974ab</field>
+    <field name="keywords">Width</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">Area</field>
+    <field name="url">_my_state_machine_8cpp.html#a78fd4dcd2fd66e25d390950b4f1a8257</field>
+    <field name="keywords">Area</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">AreaSum</field>
+    <field name="url">_my_state_machine_8cpp.html#a7ae96cba2720be3b4419d1408d04d4a1</field>
+    <field name="keywords">AreaSum</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">Rate</field>
+    <field name="url">_my_state_machine_8cpp.html#ac44ad0bc6bc0f3b4c126afef6f331c20</field>
+    <field name="keywords">Rate</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">Rate_old</field>
+    <field name="url">_my_state_machine_8cpp.html#a774f5be6f03f9f3e0f81b8aca9852f3c</field>
+    <field name="keywords">Rate_old</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">MyStateMachine.h</field>
+    <field name="url">_my_state_machine_8h.html</field>
+    <field name="keywords">MyStateMachine.h</field>
+    <field name="text">Balint Zoltan 27 Nov 2017 2017 Balint Zoltan</field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">MEASURE_X</field>
+    <field name="url">_my_state_machine_8h.html#a580407cd3f79802719c1cf81c22404af</field>
+    <field name="keywords">MEASURE_X</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">MEASURE_Y</field>
+    <field name="url">_my_state_machine_8h.html#aa8f723174e004241f709174d027a70f4</field>
+    <field name="keywords">MEASURE_Y</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">SUMMARY</field>
+    <field name="url">_my_state_machine_8h.html#aabb34c8934b3515b1b632f8ddacdbc27</field>
+    <field name="keywords">SUMMARY</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">SETTINGS</field>
+    <field name="url">_my_state_machine_8h.html#aa2d5c758628dddfa26e73ca5a245222a</field>
+    <field name="keywords">SETTINGS</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">RATE_ADDRESS</field>
+    <field name="url">_my_state_machine_8h.html#a32158821f730a5595e5f82fd8744a3d8</field>
+    <field name="keywords">RATE_ADDRESS</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">StateMachine_Setup</field>
+    <field name="args">()</field>
+    <field name="url">_my_state_machine_8h.html#a160556fe119d84e8d14ca40b0213e589</field>
+    <field name="keywords">StateMachine_Setup</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">MyStateMachine_Mng</field>
+    <field name="args">()</field>
+    <field name="url">_my_state_machine_8h.html#a0d49325facad1eeca64a239660e26158</field>
+    <field name="keywords">MyStateMachine_Mng</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">Page.cpp</field>
+    <field name="url">_page_8cpp.html</field>
+    <field name="keywords">Page.cpp</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Page_Setup</field>
+    <field name="args">()</field>
+    <field name="url">_page_8cpp.html#a1e532e2f85995be2444f671fe61703a7</field>
+    <field name="keywords">Page_Setup</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Page_Act</field>
+    <field name="args">(uint8_t Req_Page)</field>
+    <field name="url">_page_8cpp.html#a5ab373bc2fc296b7d5a511558e20dfce</field>
+    <field name="keywords">Page_Act</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Page_1</field>
+    <field name="args">()</field>
+    <field name="url">_page_8cpp.html#adb28e0853ec1eea008360869565564ea</field>
+    <field name="keywords">Page_1</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Update_Page_1</field>
+    <field name="args">(int Nr, float Length, float Width, float Area)</field>
+    <field name="url">_page_8cpp.html#adc267b58d356ccc49b48a369d21897a0</field>
+    <field name="keywords">Update_Page_1</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Page_2</field>
+    <field name="args">()</field>
+    <field name="url">_page_8cpp.html#a10fb24a6a855553d1a03174618d28a3c</field>
+    <field name="keywords">Page_2</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Update_Page_2</field>
+    <field name="args">(int Nr, float Area, float Sum)</field>
+    <field name="url">_page_8cpp.html#aae7112ac17a411547aff509a486c858d</field>
+    <field name="keywords">Update_Page_2</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Page_3</field>
+    <field name="args">()</field>
+    <field name="url">_page_8cpp.html#a679818dd5a65268bb91c1a6da49d6f66</field>
+    <field name="keywords">Page_3</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Update_Page_3</field>
+    <field name="args">(float Rate)</field>
+    <field name="url">_page_8cpp.html#ace8800d5ad3df24c75000f86124ce452</field>
+    <field name="keywords">Update_Page_3</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">lcd</field>
+    <field name="args">(0x3F, 20, 4)</field>
+    <field name="url">_page_8cpp.html#a244565a5a01139d8ebf6a1be49509b86</field>
+    <field name="keywords">lcd</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">Act_Page</field>
+    <field name="url">_page_8cpp.html#af139fc32d437840d5c1cbde7e7565a15</field>
+    <field name="keywords">Act_Page</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">Req_Page</field>
+    <field name="url">_page_8cpp.html#a01f67c8dc29e888e556d8837950d1124</field>
+    <field name="keywords">Req_Page</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">Page.h</field>
+    <field name="url">_page_8h.html</field>
+    <field name="keywords">Page.h</field>
+    <field name="text">Joe Bloggs 19 Nov 2017 2017 Joe Bloggs</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Page_Setup</field>
+    <field name="args">()</field>
+    <field name="url">_page_8h.html#a1e532e2f85995be2444f671fe61703a7</field>
+    <field name="keywords">Page_Setup</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Page_Act</field>
+    <field name="args">(uint8_t)</field>
+    <field name="url">_page_8h.html#a612edad6d6110821485f727a0d71167f</field>
+    <field name="keywords">Page_Act</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Page_1</field>
+    <field name="args">()</field>
+    <field name="url">_page_8h.html#adb28e0853ec1eea008360869565564ea</field>
+    <field name="keywords">Page_1</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Update_Page_1</field>
+    <field name="args">(int, float, float, float)</field>
+    <field name="url">_page_8h.html#a651d06ca9ae82190b387c1d5130e1312</field>
+    <field name="keywords">Update_Page_1</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Page_2</field>
+    <field name="args">()</field>
+    <field name="url">_page_8h.html#a10fb24a6a855553d1a03174618d28a3c</field>
+    <field name="keywords">Page_2</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Update_Page_2</field>
+    <field name="args">(int, float, float)</field>
+    <field name="url">_page_8h.html#ab01f644e51ea32c2cb115dc7b02a0d52</field>
+    <field name="keywords">Update_Page_2</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Page_3</field>
+    <field name="args">()</field>
+    <field name="url">_page_8h.html#a679818dd5a65268bb91c1a6da49d6f66</field>
+    <field name="keywords">Page_3</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Update_Page_3</field>
+    <field name="args">(float)</field>
+    <field name="url">_page_8h.html#a6ea6c0ba3bc7cd76546a2706997cce68</field>
+    <field name="keywords">Update_Page_3</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">Req_Page</field>
+    <field name="url">_page_8h.html#a01f67c8dc29e888e556d8837950d1124</field>
+    <field name="keywords">Req_Page</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">main.cpp</field>
+    <field name="url">main_8cpp.html</field>
+    <field name="keywords">main.cpp</field>
+    <field name="text">Balint Zoltan 20 Nov 2017 2017 Balint Zoltan</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Task_10ms</field>
+    <field name="args">()</field>
+    <field name="url">main_8cpp.html#a70040c12b70c4183813492f54c34afc3</field>
+    <field name="keywords">Task_10ms</field>
+    <field name="text">The aquisition function Void Read and store all input signals Read and verify the button states Read and verify the position sensor</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Task_100ms</field>
+    <field name="args">()</field>
+    <field name="url">main_8cpp.html#a4bb576321c9eff71b400cb7f4d58fede</field>
+    <field name="keywords">Task_100ms</field>
+    <field name="text">The Management function Void The main function of the State Machine</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Task_300ms</field>
+    <field name="args">()</field>
+    <field name="url">main_8cpp.html#a3a858d36e65173fce3807851f4ee46d7</field>
+    <field name="keywords">Task_300ms</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">setup</field>
+    <field name="args">()</field>
+    <field name="url">main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d</field>
+    <field name="keywords">setup</field>
+    <field name="text">General Setup function for Arduino Void LCD Init Task Scheduler Start Global State Machine Start EEPROM Read</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">loop</field>
+    <field name="args">()</field>
+    <field name="url">main_8cpp.html#afe461d27b9c48d5921c00d521181f12f</field>
+    <field name="keywords">loop</field>
+    <field name="text">General Loop function for Arduino Void The Main function</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">Sch_10ms</field>
+    <field name="url">main_8cpp.html#a4d073f8d6c81b71c030555ac6bdd1d06</field>
+    <field name="keywords">Sch_10ms</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">Sch_100ms</field>
+    <field name="url">main_8cpp.html#a71daaf6722f5bed35d5fdf0d22419e07</field>
+    <field name="keywords">Sch_100ms</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">Sch_300ms</field>
+    <field name="url">main_8cpp.html#ab1c4612b79475d28626e472c0a405b24</field>
+    <field name="keywords">Sch_300ms</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">main.h</field>
+    <field name="url">main_8h.html</field>
+    <field name="keywords">main.h</field>
+    <field name="text">Balint Zoltan 27 Nov 2017 2017 Balint Zoltan</field>
+  </doc>
+  <doc>
+    <field name="type">page</field>
+    <field name="name">md_.piolibdeps_Button_ID77_README</field>
+    <field name="url">md__8piolibdeps__button__i_d77__r_e_a_d_m_e.html</field>
+    <field name="keywords"></field>
+    <field name="text">Arduino Button Library v1.0 ReadMe file Jack Christensen Mar 2012 Introduction The Button library is for debouncing and reading momentary contact switches like tactile button switches of arbitrary length can be detected Works well in state machine constructs Use the read() function to read each button in the main loop which should execute as fast as possible Installation To use the Button library Go to click the Download ZIP button and save the ZIP file to a convenient location on your PC Uncompress the downloaded file This will result in a folder containing all the files for the library that has a name that includes the branch name usually Button-master Rename the folder to just Button Copy the renamed folder to the Arduino sketchbook folder Examples The following example sketches are included with the Button library SimpleOnOff Just turns the Arduino s pin 13 LED on and off LongPress Demonstrates detecting long and short button presses UpDown Counts up or down one number at a time or rapidly by holding the button down Button library methods Button(pin, puEnable, invert, dbTime) Description The constructor defines a button object Syntax Button(pin, puEnable, invert, dbTime) Parameters pin Arduino pin number that the button is connected to byte puEnable true to enable the microcontroller s internal pull-up resistor else false boolean invert false interprets a high logic level to mean the button is pressed true interprets a low level as pressed true should be used when a pull-up resistor is employed false for a pull-down resistor boolean dbTime Debounce time in milliseconds unsigned long Returns None Example read(void) Description Reads the button and returns a boolean value true or false to indicate whether the button is pressed The read() function needs to execute very frequently in order for the sketch to be responsive A good place for read() is at the top of loop() Often the return value from read() will not be needed if the other functions below are used Syntax myButton.read() Parameters None Returns true if the button is pressed else false boolean Example isPressed(void) isReleased(void) Description These methods check the button state at the point in time when it was last read and return false or true accordingly These functions do not cause the button to be read Syntax myButton.isPressed() myButton.isReleased() Parameters None Returns true or false depending on whether the button has been pressed released or not boolean Example wasPressed(void) wasReleased(void) Description These methods check the button state to see if it changed between the last two reads and return false or true accordingly These functions do not cause the button to be read Note that these functions may be more useful than isPressed() and isReleased() since they actually detect a change in the state of the button which is usually what we want in order to cause some action Syntax myButton.wasPressed() myButton.wasReleased() Parameters None Returns true or false depending on whether the button was pressed released or not boolean Example pressedFor(ms) releasedFor(ms) Description These methods check to see if the button is pressed or released and has been in that state for the specified time in milliseconds Returns false or true accordingly These functions are useful to detect Note that these functions do not cause the button to be read Syntax myButton.pressedFor(ms) myButton.releasedFor(ms) Parameters ms The number of milliseconds unsigned long Returns true or false depending on whether the button was pressed released for the specified time boolean Example lastChange(void) Description Under certain circumstances it may be useful to know when a button last changed state lastChange() returns the time the button last changed state in milliseconds the value is derived from the Arduino millis() function Syntax myButton.lastChange() Parameters None Returns The time in milliseconds when the button last changed state unsigned long Example</field>
+  </doc>
+  <doc>
+    <field name="type">page</field>
+    <field name="name">md_.piolibdeps_jm_Scheduler_ID1549_README</field>
+    <field name="url">md__8piolibdeps_jm__scheduler__i_d1549__r_e_a_d_m_e.html</field>
+    <field name="keywords"></field>
+    <field name="text">README jm_Scheduler A Scheduler Library for Arduino Concept jm_Scheduler schedules repeated and intervaled routines like the JavaScript setInterval() function does but with some improvements By default jm_Scheduler starts immediately the routine and repeats it periodically The first execution can be differed The repeated executions can be voided The interval between executions can be dynamically changed The scheduled routine function can be dynamically changed The scheduled routine can be stopped and later restarted jm_Scheduler doesn t schedule like the official Scheduler Library for Arduino DUE and ZERO does yield() function which suspends a task is not implemented startLoop() function which allocates a stack to the new task is not implemented jm_Scheduler schedules tasks sequentially on the stack processor The rules to yield and resume are yield comes out when routine leaves at end of function or by an explicit return instruction resume to a next state can be done with a variable and a switch instruction Or resume to a next state can be done by switching to another function Persistent variables must be implemented global or local with the pragma static Basic Example Study Plan Begin with example Clock1.ino This example demonstrates the advantage to start immediately a time display routine and periodically repeat it Follow with examples Clock2.ino and Clock3.ino which present other timing ways Clock4.ino example presents a usefully jm_Scheduler technical changing dynamically the function to execute Beat1.ino and Beat2.ino examples present interaction between 2 scheduled routines Wakeup1.ino example demonstrates the possible interaction between an interrupt and a scheduled routine implementing a timeout Timestamp The timestamp is read from the Arduino function micros() By design the micros() function of Arduino UNO and Leonardo running at 16MHz returns a us timestamp with a resolution of 4us micros() declaration is Look at for details timestamp is a 32bit us counter and overflows about every 70 minutes precisely 1h+11m+34s+967ms+296us Timestamp declaration and constants timestamp_t defines the type of all timestamp values timestamp_read() returns the instantaneous timestamp This function can also be used by interrupt routines to timestamp they data TIMESTAMP_DEAD is the maximum allowed execution time of a routine to guarantee right scheduling If the routine doesn t end before the scheduler could miss very long scheduling see next TIMESTAMP_TMAX is the maximum allowed scheduling time of a routine In practice don t use timestamp values greater than 1 hour jm_Scheduler methods start() initiates a scheduler variable starts a routine function immediately or on time with or without repetitions start() is invoked once Next rearm() allows changing scheduler values stop() cancels further execution of a scheduled routine stop() can be invoked from inside routine or elsewhere If invoked from inside routine stop() doesn t exit the function just cancels further execution rearm() changes values of a scheduler variable The new values are evaluated on exit routine function The main usage is to change interval or function or both or else cancel further execution jm_Scheduler loop cycle() is the cornerstone of the scheduler and must be invoked as often as possible Note that cycle() is a static method The right place is in Arduino loop() function Example cycle() can also be invoked in Arduino setup() function Example cycle() can t be invoked from inside a routine function Good scheduling practices To guarantee a good scheduling of all tasks the execution time of each function must be as short as possible Avoid Arduino delay() function use jm_Scheduler rearm() method with appropriate arguments to split the routine in some serialized functions Use same technical for long calculations Changing of Timestamp Here are some hacks that can be implemented by modifying the file jm_Scheduler.h Another source for the timestamp could be the ms read from the Arduino function millis() Gain speed during timestamp comparison by shortening the size to 16bit Obtain very long periodicity by implementing a 64bit timestamp</field>
+  </doc>
+  <doc>
+    <field name="type">page</field>
+    <field name="name">md_.piolibdeps_LiquidCrystal_I2C_ID576_README</field>
+    <field name="url">md__8piolibdeps__liquid_crystal__i2_c__i_d576__r_e_a_d_m_e.html</field>
+    <field name="keywords"></field>
+    <field name="text">LiquidCrystal_I2C LiquidCrystal Arduino library for the DFRobot I2C LCD displays</field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">Button</field>
+    <field name="url">class_button.html</field>
+    <field name="keywords">Button</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Button::Button</field>
+    <field name="args">(uint8_t pin, uint8_t puEnable, uint8_t invert, uint32_t dbTime)</field>
+    <field name="url">class_button.html#afed59e35f623f232ae04a892127a0738</field>
+    <field name="keywords">Button Button::Button Button</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Button::read</field>
+    <field name="args">()</field>
+    <field name="url">class_button.html#a5f5c0d23ab0e5387b861e68019a7e85d</field>
+    <field name="keywords">read Button::read Button</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Button::isPressed</field>
+    <field name="args">()</field>
+    <field name="url">class_button.html#adc52c28d5eecbb08818e4a701e346fb0</field>
+    <field name="keywords">isPressed Button::isPressed Button</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Button::isReleased</field>
+    <field name="args">()</field>
+    <field name="url">class_button.html#a7bf938a70dee91015b044e434fc9499b</field>
+    <field name="keywords">isReleased Button::isReleased Button</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Button::wasPressed</field>
+    <field name="args">()</field>
+    <field name="url">class_button.html#a3496a1689b2b2f5635d5c7716f38ec43</field>
+    <field name="keywords">wasPressed Button::wasPressed Button</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Button::wasReleased</field>
+    <field name="args">()</field>
+    <field name="url">class_button.html#a79164a7fd70f08cb8c3930e8c06b9190</field>
+    <field name="keywords">wasReleased Button::wasReleased Button</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Button::pressedFor</field>
+    <field name="args">(uint32_t ms)</field>
+    <field name="url">class_button.html#a11b97b9e73881e876724ddeedac716f9</field>
+    <field name="keywords">pressedFor Button::pressedFor Button</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Button::releasedFor</field>
+    <field name="args">(uint32_t ms)</field>
+    <field name="url">class_button.html#a805e542eaf9976b7c1afaf3dfecc13a5</field>
+    <field name="keywords">releasedFor Button::releasedFor Button</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Button::lastChange</field>
+    <field name="args">()</field>
+    <field name="url">class_button.html#a6880ef962e03d55216d79217e7473bd2</field>
+    <field name="keywords">lastChange Button::lastChange Button</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">jm_Scheduler</field>
+    <field name="url">classjm___scheduler.html</field>
+    <field name="keywords">jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">jm_Scheduler::chain_insert</field>
+    <field name="args">()</field>
+    <field name="url">classjm___scheduler.html#a1da9c02f88f8ba2909ea72b3f4fb2ba0</field>
+    <field name="keywords">chain_insert jm_Scheduler::chain_insert jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">jm_Scheduler::chain_remove</field>
+    <field name="args">()</field>
+    <field name="url">classjm___scheduler.html#aa2ce9aa249dd0177551547ecb332938b</field>
+    <field name="keywords">chain_remove jm_Scheduler::chain_remove jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">jm_Scheduler::wakeup_chain_append</field>
+    <field name="args">()</field>
+    <field name="url">classjm___scheduler.html#a9b1166b80f998e1e98a011f92f03e4f3</field>
+    <field name="keywords">wakeup_chain_append jm_Scheduler::wakeup_chain_append jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">jm_Scheduler::wakeup_chain_remove</field>
+    <field name="args">()</field>
+    <field name="url">classjm___scheduler.html#a1666e93e3419cb56fa11f3fa0b550518</field>
+    <field name="keywords">wakeup_chain_remove jm_Scheduler::wakeup_chain_remove jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">jm_Scheduler::jm_Scheduler</field>
+    <field name="args">()</field>
+    <field name="url">classjm___scheduler.html#afb01670c9e3ec570d9bf6f7b067c8a4d</field>
+    <field name="keywords">jm_Scheduler jm_Scheduler::jm_Scheduler jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">jm_Scheduler::~jm_Scheduler</field>
+    <field name="args">()</field>
+    <field name="url">classjm___scheduler.html#aa0ab564829d50e8449f06abc13bcaa36</field>
+    <field name="keywords">jm_Scheduler::~jm_Scheduler jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">jm_Scheduler::operator bool</field>
+    <field name="args">()</field>
+    <field name="url">classjm___scheduler.html#a7a390d3881ea9a0f635f439633f1df9e</field>
+    <field name="keywords">operator bool jm_Scheduler::operator bool jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">jm_Scheduler::display</field>
+    <field name="args">(int line)</field>
+    <field name="url">classjm___scheduler.html#a7a00c3398cbbe5131984247a41622e12</field>
+    <field name="keywords">display jm_Scheduler::display jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">jm_Scheduler::start</field>
+    <field name="args">(voidfuncptr_t func)</field>
+    <field name="url">classjm___scheduler.html#a79f2ab3b1aa8ebc2cb3c73e1e26731db</field>
+    <field name="keywords">start jm_Scheduler::start jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">jm_Scheduler::start</field>
+    <field name="args">(voidfuncptr_t func, timestamp_t ival)</field>
+    <field name="url">classjm___scheduler.html#af75800717010aa6c12908b47315efd32</field>
+    <field name="keywords">start jm_Scheduler::start jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">jm_Scheduler::start</field>
+    <field name="args">(voidfuncptr_t func, timestamp_t time, timestamp_t ival)</field>
+    <field name="url">classjm___scheduler.html#a19625f9e28d71be27d2f6be352a5c04e</field>
+    <field name="keywords">start jm_Scheduler::start jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">jm_Scheduler::stop</field>
+    <field name="args">()</field>
+    <field name="url">classjm___scheduler.html#aade52b5080adfe360a9a23a4d9332083</field>
+    <field name="keywords">stop jm_Scheduler::stop jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">jm_Scheduler::rearm</field>
+    <field name="args">()</field>
+    <field name="url">classjm___scheduler.html#ada4fc6bacc6d1a10583b7012426c0b05</field>
+    <field name="keywords">rearm jm_Scheduler::rearm jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">jm_Scheduler::rearm_async</field>
+    <field name="args">()</field>
+    <field name="url">classjm___scheduler.html#ac83d8ee0bd4586cfecec512247eb10f0</field>
+    <field name="keywords">rearm_async jm_Scheduler::rearm_async jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">jm_Scheduler::rearm</field>
+    <field name="args">(timestamp_t ival)</field>
+    <field name="url">classjm___scheduler.html#aa0b62aea79c6acc4f007c36c0d7da877</field>
+    <field name="keywords">rearm jm_Scheduler::rearm jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">jm_Scheduler::rearm_async</field>
+    <field name="args">(timestamp_t ival)</field>
+    <field name="url">classjm___scheduler.html#ac0f4b9406f82bee97894fb5f12411831</field>
+    <field name="keywords">rearm_async jm_Scheduler::rearm_async jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">jm_Scheduler::rearm</field>
+    <field name="args">(voidfuncptr_t func, timestamp_t ival)</field>
+    <field name="url">classjm___scheduler.html#a198851d537ab878364441d62fc433e66</field>
+    <field name="keywords">rearm jm_Scheduler::rearm jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">jm_Scheduler::rearm_async</field>
+    <field name="args">(voidfuncptr_t func, timestamp_t ival)</field>
+    <field name="url">classjm___scheduler.html#abc23c046e4b6dda1265feb7f1ffcb728</field>
+    <field name="keywords">rearm_async jm_Scheduler::rearm_async jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">jm_Scheduler::wakeup</field>
+    <field name="args">()</field>
+    <field name="url">classjm___scheduler.html#a9fe0741d26db414419fb5712b366a225</field>
+    <field name="keywords">wakeup jm_Scheduler::wakeup jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">jm_Scheduler::wakeup_read</field>
+    <field name="args">()</field>
+    <field name="url">classjm___scheduler.html#a2fe6b771fe7e9d3d23e70b2b00f34b94</field>
+    <field name="keywords">wakeup_read jm_Scheduler::wakeup_read jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">jm_Scheduler::time_cycle</field>
+    <field name="args">()</field>
+    <field name="url">classjm___scheduler.html#a3f5b9c170d11b9a8ee303c5433eb4659</field>
+    <field name="keywords">time_cycle jm_Scheduler::time_cycle jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">jm_Scheduler::cycle</field>
+    <field name="args">()</field>
+    <field name="url">classjm___scheduler.html#a868f53e5acccf503f861c4be4d0c210b</field>
+    <field name="keywords">cycle jm_Scheduler::cycle jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">jm_Scheduler::yield</field>
+    <field name="args">()</field>
+    <field name="url">classjm___scheduler.html#a294c7c9235e9f1b3e033219971853bd0</field>
+    <field name="keywords">yield jm_Scheduler::yield jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">jm_Scheduler::sleep</field>
+    <field name="args">(timestamp_t ival)</field>
+    <field name="url">classjm___scheduler.html#ac11a0a89f00d49a1209c5a917afaac43</field>
+    <field name="keywords">sleep jm_Scheduler::sleep jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">jm_Scheduler::func</field>
+    <field name="url">classjm___scheduler.html#a820a67e5197434648f278aee064c2f83</field>
+    <field name="keywords">func jm_Scheduler::func jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">jm_Scheduler::time</field>
+    <field name="url">classjm___scheduler.html#a9f5c16805431cb6ebf527331fe08ba33</field>
+    <field name="keywords">time jm_Scheduler::time jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">jm_Scheduler::ival</field>
+    <field name="url">classjm___scheduler.html#aa1f150464f52d7eaf94741b6866ecdf5</field>
+    <field name="keywords">ival jm_Scheduler::ival jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">jm_Scheduler::next</field>
+    <field name="url">classjm___scheduler.html#aec9f48c7fa6b357c32645a2e4e2c5b54</field>
+    <field name="keywords">next jm_Scheduler::next jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">jm_Scheduler::wakeup_time</field>
+    <field name="url">classjm___scheduler.html#a182bd744b49137e5071c7aafcc06203b</field>
+    <field name="keywords">wakeup_time jm_Scheduler::wakeup_time jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">jm_Scheduler::wakeup_next</field>
+    <field name="url">classjm___scheduler.html#ae1e2087198327ca7700af1f7e2d3b5d5</field>
+    <field name="keywords">wakeup_next jm_Scheduler::wakeup_next jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">jm_Scheduler::wakeup_count</field>
+    <field name="url">classjm___scheduler.html#a1cca96a35d5b495b234416ba6e8b4faa</field>
+    <field name="keywords">wakeup_count jm_Scheduler::wakeup_count jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">jm_Scheduler::started</field>
+    <field name="url">classjm___scheduler.html#a5a799c6e4cef2a8d04021bf118906b3e</field>
+    <field name="keywords">started jm_Scheduler::started jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">jm_Scheduler::stopping</field>
+    <field name="url">classjm___scheduler.html#a7e77d07163670e8f37261f1bc50f398f</field>
+    <field name="keywords">stopping jm_Scheduler::stopping jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">jm_Scheduler::yielded</field>
+    <field name="url">classjm___scheduler.html#add3601cc1ae5777d3146593b8d38c8d5</field>
+    <field name="keywords">yielded jm_Scheduler::yielded jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">jm_Scheduler::tref</field>
+    <field name="url">classjm___scheduler.html#a4c755dd7af129c3a118ca52eb001fa16</field>
+    <field name="keywords">tref jm_Scheduler::tref jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">jm_Scheduler::first</field>
+    <field name="url">classjm___scheduler.html#addf3fbffb5b87e17b6b7c6d5683c4ff7</field>
+    <field name="keywords">first jm_Scheduler::first jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">jm_Scheduler::crnt</field>
+    <field name="url">classjm___scheduler.html#a86303b6ae36ef50bd258643f9857cc56</field>
+    <field name="keywords">crnt jm_Scheduler::crnt jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">jm_Scheduler::wakeup_first</field>
+    <field name="url">classjm___scheduler.html#af5c9f4b6e176e12c86b30beae50335b7</field>
+    <field name="keywords">wakeup_first jm_Scheduler::wakeup_first jm_Scheduler</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">LiquidCrystal_I2C</field>
+    <field name="url">class_liquid_crystal___i2_c.html</field>
+    <field name="keywords">LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::LiquidCrystal_I2C</field>
+    <field name="args">(uint8_t lcd_Addr, uint8_t lcd_cols, uint8_t lcd_rows)</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a8dfaa0b0dd9ac30360afaf6b3b79c073</field>
+    <field name="keywords">LiquidCrystal_I2C LiquidCrystal_I2C::LiquidCrystal_I2C LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::begin</field>
+    <field name="args">(uint8_t cols, uint8_t rows, uint8_t charsize=LCD_5x8DOTS)</field>
+    <field name="url">class_liquid_crystal___i2_c.html#aeee2ada537f0cfbfda8613324b57c4a6</field>
+    <field name="keywords">begin LiquidCrystal_I2C::begin LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::clear</field>
+    <field name="args">()</field>
+    <field name="url">class_liquid_crystal___i2_c.html#ab47996231da6feeebcebf0e6e34756a9</field>
+    <field name="keywords">clear LiquidCrystal_I2C::clear LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::home</field>
+    <field name="args">()</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a9b8edf82c5835c9b6caac98b5a0ed464</field>
+    <field name="keywords">home LiquidCrystal_I2C::home LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::noDisplay</field>
+    <field name="args">()</field>
+    <field name="url">class_liquid_crystal___i2_c.html#af89d6facccc156d7f151da71ecdd3b70</field>
+    <field name="keywords">noDisplay LiquidCrystal_I2C::noDisplay LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::display</field>
+    <field name="args">()</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a5fa41920b5cebf1960b15582a957eb93</field>
+    <field name="keywords">display LiquidCrystal_I2C::display LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::noBlink</field>
+    <field name="args">()</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a89ba791c60f6100eb565bc6099e56bb1</field>
+    <field name="keywords">noBlink LiquidCrystal_I2C::noBlink LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::blink</field>
+    <field name="args">()</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a604ade489e878ec757a05dab4586c3a9</field>
+    <field name="keywords">blink LiquidCrystal_I2C::blink LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::noCursor</field>
+    <field name="args">()</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a35a18278aa45bd91f2772924a50b7120</field>
+    <field name="keywords">noCursor LiquidCrystal_I2C::noCursor LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::cursor</field>
+    <field name="args">()</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a4ea81707534586397b00c39b1ab236bf</field>
+    <field name="keywords">cursor LiquidCrystal_I2C::cursor LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::scrollDisplayLeft</field>
+    <field name="args">()</field>
+    <field name="url">class_liquid_crystal___i2_c.html#affbf0a3c740de86dbf684345fdddc607</field>
+    <field name="keywords">scrollDisplayLeft LiquidCrystal_I2C::scrollDisplayLeft LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::scrollDisplayRight</field>
+    <field name="args">()</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a467cf825f22d41b197250e4bd3d39fd8</field>
+    <field name="keywords">scrollDisplayRight LiquidCrystal_I2C::scrollDisplayRight LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::printLeft</field>
+    <field name="args">()</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a1311738e05a9c9cfa80391aea91b04c5</field>
+    <field name="keywords">printLeft LiquidCrystal_I2C::printLeft LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::printRight</field>
+    <field name="args">()</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a5f07251336723d9f0dcc32dc7717c358</field>
+    <field name="keywords">printRight LiquidCrystal_I2C::printRight LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::leftToRight</field>
+    <field name="args">()</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a90a79b37f976778593abb0264f59cda5</field>
+    <field name="keywords">leftToRight LiquidCrystal_I2C::leftToRight LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::rightToLeft</field>
+    <field name="args">()</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a063f518b9ebf1e35f29273f7c784d028</field>
+    <field name="keywords">rightToLeft LiquidCrystal_I2C::rightToLeft LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::shiftIncrement</field>
+    <field name="args">()</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a34cc9574dcb7aba84af90bad2ff04842</field>
+    <field name="keywords">shiftIncrement LiquidCrystal_I2C::shiftIncrement LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::shiftDecrement</field>
+    <field name="args">()</field>
+    <field name="url">class_liquid_crystal___i2_c.html#ae130bebc78dca06c73a9c7e3ca5eb228</field>
+    <field name="keywords">shiftDecrement LiquidCrystal_I2C::shiftDecrement LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::noBacklight</field>
+    <field name="args">()</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a576f1f5813f55f34333d6d7e9fe53ad3</field>
+    <field name="keywords">noBacklight LiquidCrystal_I2C::noBacklight LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::backlight</field>
+    <field name="args">()</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a9f296e0d26f8b6a4509d8d4b9d738c03</field>
+    <field name="keywords">backlight LiquidCrystal_I2C::backlight LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::autoscroll</field>
+    <field name="args">()</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a36f1b8e433762262d2238463b7a92f74</field>
+    <field name="keywords">autoscroll LiquidCrystal_I2C::autoscroll LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::noAutoscroll</field>
+    <field name="args">()</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a10fd17e8377c240527a7668606c9de72</field>
+    <field name="keywords">noAutoscroll LiquidCrystal_I2C::noAutoscroll LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::createChar</field>
+    <field name="args">(uint8_t, uint8_t[])</field>
+    <field name="url">class_liquid_crystal___i2_c.html#adb84147c9e3ee0c279d3afc609b81608</field>
+    <field name="keywords">createChar LiquidCrystal_I2C::createChar LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::setCursor</field>
+    <field name="args">(uint8_t, uint8_t)</field>
+    <field name="url">class_liquid_crystal___i2_c.html#ae1a7b0162a055502ad9eac04cec9e270</field>
+    <field name="keywords">setCursor LiquidCrystal_I2C::setCursor LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::write</field>
+    <field name="args">(uint8_t)</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a6bae091b5b16db5408ac3214245c8942</field>
+    <field name="keywords">write LiquidCrystal_I2C::write LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::command</field>
+    <field name="args">(uint8_t)</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a5e69fa88365d87fb8422f69069a3ee48</field>
+    <field name="keywords">command LiquidCrystal_I2C::command LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::init</field>
+    <field name="args">()</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a6d40d226d4bc9baedc9a5c765470457a</field>
+    <field name="keywords">init LiquidCrystal_I2C::init LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::blink_on</field>
+    <field name="args">()</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a06a2f5c8607d58cfe6db8b801ae956a0</field>
+    <field name="keywords">blink_on LiquidCrystal_I2C::blink_on LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::blink_off</field>
+    <field name="args">()</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a9ac2b8da020fd033eb174d9805f43751</field>
+    <field name="keywords">blink_off LiquidCrystal_I2C::blink_off LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::cursor_on</field>
+    <field name="args">()</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a95fb4de1f214f30e94b0f3ff84df2c85</field>
+    <field name="keywords">cursor_on LiquidCrystal_I2C::cursor_on LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::cursor_off</field>
+    <field name="args">()</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a7f3c51a11c078f8c6750690bc172047d</field>
+    <field name="keywords">cursor_off LiquidCrystal_I2C::cursor_off LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::setBacklight</field>
+    <field name="args">(uint8_t new_val)</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a76383f15c82698f5b4ef5f3a36f26413</field>
+    <field name="keywords">setBacklight LiquidCrystal_I2C::setBacklight LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::load_custom_character</field>
+    <field name="args">(uint8_t char_num, uint8_t *rows)</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a3251c0d8e9a6981d46e25d5452b8323f</field>
+    <field name="keywords">load_custom_character LiquidCrystal_I2C::load_custom_character LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::printstr</field>
+    <field name="args">(const char[])</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a36d792580018f7c0c0ae2500980931e5</field>
+    <field name="keywords">printstr LiquidCrystal_I2C::printstr LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::status</field>
+    <field name="args">()</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a57278987b0b259fe7598e57ddaf106cf</field>
+    <field name="keywords">status LiquidCrystal_I2C::status LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::setContrast</field>
+    <field name="args">(uint8_t new_val)</field>
+    <field name="url">class_liquid_crystal___i2_c.html#aa49d57361d3b48ded89bfb42c3e0349d</field>
+    <field name="keywords">setContrast LiquidCrystal_I2C::setContrast LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::keypad</field>
+    <field name="args">()</field>
+    <field name="url">class_liquid_crystal___i2_c.html#ab571c9ed0b1b38ed8b6bc9c4b2572ea0</field>
+    <field name="keywords">keypad LiquidCrystal_I2C::keypad LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::setDelay</field>
+    <field name="args">(int, int)</field>
+    <field name="url">class_liquid_crystal___i2_c.html#aebc613f31cd399cb463f6d9fce8a4d8d</field>
+    <field name="keywords">setDelay LiquidCrystal_I2C::setDelay LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::on</field>
+    <field name="args">()</field>
+    <field name="url">class_liquid_crystal___i2_c.html#ade8df694db7a45392d81a630221aec35</field>
+    <field name="keywords">on LiquidCrystal_I2C::on LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::off</field>
+    <field name="args">()</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a2823eb0ebd97f9710868d51b470a7310</field>
+    <field name="keywords">off LiquidCrystal_I2C::off LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::init_bargraph</field>
+    <field name="args">(uint8_t graphtype)</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a8a87f06039d79acc1bda837d3303bfdc</field>
+    <field name="keywords">init_bargraph LiquidCrystal_I2C::init_bargraph LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::draw_horizontal_graph</field>
+    <field name="args">(uint8_t row, uint8_t column, uint8_t len, uint8_t pixel_col_end)</field>
+    <field name="url">class_liquid_crystal___i2_c.html#a2fad8437055f3c550bc212662e0f4e15</field>
+    <field name="keywords">draw_horizontal_graph LiquidCrystal_I2C::draw_horizontal_graph LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">LiquidCrystal_I2C::draw_vertical_graph</field>
+    <field name="args">(uint8_t row, uint8_t column, uint8_t len, uint8_t pixel_col_end)</field>
+    <field name="url">class_liquid_crystal___i2_c.html#af984fc2e29c38b87d4bc8b855e9ba27c</field>
+    <field name="keywords">draw_vertical_graph LiquidCrystal_I2C::draw_vertical_graph LiquidCrystal_I2C</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">union</field>
+    <field name="name">Sensor</field>
+    <field name="url">union_sensor.html</field>
+    <field name="keywords">Sensor</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">Sensor::Sensor_Bits</field>
+    <field name="url">union_sensor.html#a949bb480b2a371f85fe30130555eb31e</field>
+    <field name="keywords">Sensor_Bits Sensor::Sensor_Bits Sensor</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">Sensor::Data</field>
+    <field name="url">union_sensor.html#a83661a28625ab0259778424160be5e2c</field>
+    <field name="keywords">Data Sensor::Data Sensor</field>
+    <field name="text"></field>
+  </doc>
+</add>
