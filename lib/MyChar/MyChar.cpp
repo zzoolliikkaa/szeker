@@ -6,6 +6,7 @@
 uint8_t BigNumberRow_0 = 0;
 uint8_t BigNumberRow_1 = 0;
 uint8_t BigNumberColumn = 0;
+uint8_t BigNumberNr = 4;
 
 uint8_t bar1[8] =
 {
@@ -269,19 +270,31 @@ void printBigNumber(float rpm, uint8_t Dot)
   }
 
   u = number;
+  if (BigNumberNr > 3)      printNumber(m, BigNumberColumn -10);
+  if (BigNumberNr > 2)      printNumber(c, BigNumberColumn -7);
 
-  printNumber(m, BigNumberColumn);
-  printNumber(c, BigNumberColumn + 3);
   if ( 1 == Dot )
   {
-    lcd.setCursor(13, BigNumberRow_1);
-    lcd.write(0xA1);//6F
+    lcd.setCursor(BigNumberColumn - 4, BigNumberRow_1);
+    lcd.write(0xA1);
   }
   else
   {
     BigNumberColumn = BigNumberColumn - 1;
   }
-    printNumber(d, BigNumberColumn + 7);
-    printNumber(u, BigNumberColumn + 10);
+  if (BigNumberNr > 1)    printNumber(d, BigNumberColumn -3);
+  if (BigNumberNr > 0)    printNumber(u, BigNumberColumn );
 
+}
+
+void printLine()
+{
+  lcd.setCursor(BigNumberColumn,0);
+  lcd.write(0xFF);
+  lcd.setCursor(BigNumberColumn,1);
+  lcd.write(0xFF);
+  lcd.setCursor(BigNumberColumn,2);
+  lcd.write(0xFF);
+  lcd.setCursor(BigNumberColumn,3);
+  lcd.write(0xFF);
 }

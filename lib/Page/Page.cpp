@@ -47,6 +47,11 @@ void Page_Act(uint8_t Req_Page)
                         Act_Page = 3;
                         break;
                 }
+                case 4: {
+                        Page_4();
+                        Act_Page = 4;
+                        break;
+                }
                 default: {
                         //Page_1();
                         break;
@@ -65,79 +70,72 @@ void Page_Act(uint8_t Req_Page)
         }
 }
 
-/*
-void Page_1()
-{
-        lcd.clear();
-        // 1st Line
-        lcd.setCursor(0,0);
-        lcd.print(" Darab:       ");
-
-        // 2nd line
-        lcd.setCursor(0,1);
-        lcd.print(" Hossz:    ");
-        lcd.setCursor(17,1);
-        lcd.print(" m");
-
-        //3 line
-        lcd.setCursor(0,2);
-        lcd.print(" Szelesseg:");
-        lcd.setCursor(17,2);
-        lcd.print(" m");
-
-        //4 line
-        lcd.setCursor(0,3);
-        lcd.print(" Terulet: ");
-        lcd.setCursor(17,3);
-        lcd.print(" m2");
-}
-*/
 void Page_1()
 {
         lcd.clear();
         lcd.setCursor(0,0);
-        lcd.print(" Hosszusag :");
+        lcd.print("Darab");
+        BigNumberColumn = 6;
+        printLine();
+        lcd.setCursor(7,0);
+        lcd.print("  Hosszusag");
 }
 void Update_Page_1(float Length,uint8_t Nr)
 {
         BigNumberRow_0 = 1;
         BigNumberRow_1 = 2;
-        BigNumberColumn = 0;
+        BigNumberColumn = 4;
+        BigNumberNr = 2;
         printBigNumber(Nr,0);
-        /*
+
         BigNumberRow_0 = 1;
         BigNumberRow_1 = 2;
-        BigNumberColumn = 7;
+        BigNumberColumn = 17;
+        BigNumberNr = 4;
         printBigNumber(Length,1);
-        */
 }
 void Page_2()
 {
-        lcd.clear();
-        lcd.setCursor(0,0);
-        lcd.print(" Szelesseg :");
+      lcd.clear();
+      lcd.setCursor(0,0);
+      lcd.print("Darab");
+      BigNumberColumn = 6;
+      printLine();
+      lcd.setCursor(7,0);
+      lcd.print("  Szelesseg");
 }
-void Update_Page_2(float Width)
+void Update_Page_2(float Width,uint8_t Nr)
 {
-        BigNumberRow_0 = 1;
-        BigNumberRow_1 = 2;
-        BigNumberColumn = 7;
-        printBigNumber(Width,1);
+      BigNumberRow_0 = 1;
+      BigNumberRow_1 = 2;
+      BigNumberColumn = 4;
+      BigNumberNr = 2;
+      printBigNumber(Nr,0);
+
+      BigNumberRow_0 = 1;
+      BigNumberRow_1 = 2;
+      BigNumberColumn = 17;
+      BigNumberNr = 4;
+      printBigNumber(Width,1);
 }
 void Page_3()
 {
         lcd.clear();
         lcd.setCursor(0,0);
         lcd.print("Osszeg:");
+        lcd.setCursor(0,2);
+        lcd.print("Darab:");
         lcd.setCursor(0,3);
         lcd.print(" Terulet:");
 }
-void Update_Page_3(float Area,float Sum)
+void Update_Page_3(float Area,float Sum,uint8_t Nr)
 {
         BigNumberRow_0 = 0;
         BigNumberRow_1 = 1;
-        BigNumberColumn = 7;
+        BigNumberColumn = 17;
         printBigNumber(Sum,1);
+        lcd.setCursor(11,2);
+        lcd.print(Nr);
         lcd.setCursor(11,3);
         lcd.print(String(Area));
         lcd.setCursor(16,3);

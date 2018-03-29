@@ -1,16 +1,16 @@
 -IC:\Users\zoltan.balint\.platformio\packages\framework-arduinoavr\cores\arduino
 -IC:\Users\zoltan.balint\.platformio\packages\framework-arduinoavr\variants\eightanaloginputs
--IC:\E\Szeker\szeker-BigNumber\src
+-IC:\E\Szeker\src
 -IC:\Users\zoltan.balint\.platformio\packages\framework-arduinoavr\libraries\__cores__\arduino\Wire\src
--IC:\E\Szeker\szeker-BigNumber\.piolibdeps\LiquidCrystal_I2C_ID576
--IC:\E\Szeker\szeker-BigNumber\.piolibdeps\Button_ID77
--IC:\E\Szeker\szeker-BigNumber\.piolibdeps\jm_Scheduler_ID1549
--IC:\E\Szeker\szeker-BigNumber\lib\MySensor
+-IC:\E\Szeker\.piolibdeps\LiquidCrystal_I2C_ID576
+-IC:\E\Szeker\.piolibdeps\Button_ID77
+-IC:\E\Szeker\.piolibdeps\jm_Scheduler_ID1549
+-IC:\E\Szeker\lib\MySensor
+-IC:\E\Szeker\lib\MyButton
 -IC:\Users\zoltan.balint\.platformio\packages\framework-arduinoavr\libraries\__cores__\arduino\EEPROM\src
--IC:\E\Szeker\szeker-BigNumber\lib\MyButton
--IC:\E\Szeker\szeker-BigNumber\lib\MyChar
--IC:\E\Szeker\szeker-BigNumber\lib\MyStateMachine
--IC:\E\Szeker\szeker-BigNumber\lib\Page
+-IC:\E\Szeker\lib\Page
+-IC:\E\Szeker\lib\MyStateMachine
+-IC:\E\Szeker\lib\MyChar
 -IC:\Users\zoltan.balint\.platformio\lib\Adafruit GFX Library_ID13
 -IC:\Users\zoltan.balint\.platformio\lib\Adafruit SSD1306_ID135
 -IC:\Users\zoltan.balint\.platformio\lib\Adafruit ST7735 Library_ID12

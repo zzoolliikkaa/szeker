@@ -245,7 +245,7 @@ void MyStateMachine_Mng()
                         Width = 0;
                         Area = 0;
                 }
-                Update_Page_2(Width);
+                Update_Page_2(Width,Nr);
                 break;
         }
         case SUMMARY: {
@@ -269,15 +269,17 @@ void MyStateMachine_Mng()
                         Req_Page = 1;
                         Clear_All_Button = 1;
                 }
-                Update_Page_3(AreaSum,(float)(AreaSum * Rate));
+                Update_Page_3(AreaSum,(float)(AreaSum * Rate),Nr);
                 break;
         }
 
         case SETTINGS: {
                 // Set page in the LCD
+/*
  #ifdef DEBUG_STATE_MACHINE
                 Serial.println(" State : SETTINGS ");
  #endif
+ */
                 // Increment Rate value
                 if ((PRESSED == b_SM_State) && (Rate < 25.4) )
                 {
@@ -326,6 +328,7 @@ void MyStateMachine_Mng()
 #ifdef DEBUG_STATE_MACHINE
                 Serial.println(" State : PRESLEEP ");
 #endif
+                digitalWrite(HEART_BEAT_LED_PIN, 0);
                 /* Preparing to the SLEEP Mode */
 //                Lcd_State = LCD_OFF;
                 StateMachine = SLEEP;

@@ -10,6 +10,7 @@
 #define SLEEP_TIMER     400    /* Real Time = SLEEP_TIMER * 300 ms ( Task cycle) */
 #define WAKE_UP_PIN     2
 #define SENSOR_PIN      3
+#define HEART_BEAT_LED_PIN       13
 
 #define RATE_ADDRESS    1
 #define DEBUG_STATE_MACHINE
