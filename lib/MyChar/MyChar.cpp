@@ -243,7 +243,7 @@ void printNumber(int value, int col) {
   }
 }
 
-void printBigNumber(float rpm, uint8_t Dot)
+void printBigFloat(float rpm, uint8_t Dot)
 {
   uint8_t m , c, d, u;
   uint16_t number;
@@ -285,6 +285,18 @@ void printBigNumber(float rpm, uint8_t Dot)
   if (BigNumberNr > 1)    printNumber(d, BigNumberColumn -3);
   if (BigNumberNr > 0)    printNumber(u, BigNumberColumn );
 
+}
+void printBigInt(uint8_t number)
+{
+  uint8_t x1,x10;
+
+  x1 = number % 10;
+  number = number / 10;
+  x10 = number % 10;
+  number = number / 10;
+  
+  printNumber(x10, BigNumberColumn -3);
+  printNumber(x1, BigNumberColumn );
 }
 
 void printLine()

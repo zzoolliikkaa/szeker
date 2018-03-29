@@ -1,5 +1,6 @@
 extern LiquidCrystal_I2C lcd;
-void printBigNumber(float,uint8_t);
+void printBigFloat(float,uint8_t);
+void printBigInt(uint8_t);
 void printLine();
 extern uint8_t bar1[8];
 extern uint8_t bar2[8];

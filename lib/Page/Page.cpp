@@ -84,15 +84,15 @@ void Update_Page_1(float Length,uint8_t Nr)
 {
         BigNumberRow_0 = 1;
         BigNumberRow_1 = 2;
-        BigNumberColumn = 4;
+        BigNumberColumn = 3;
         BigNumberNr = 2;
-        printBigNumber(Nr,0);
+        printBigInt(Nr);
 
         BigNumberRow_0 = 1;
         BigNumberRow_1 = 2;
         BigNumberColumn = 17;
         BigNumberNr = 4;
-        printBigNumber(Length,1);
+        printBigFloat(Length,1);
 }
 void Page_2()
 {
@@ -108,15 +108,15 @@ void Update_Page_2(float Width,uint8_t Nr)
 {
       BigNumberRow_0 = 1;
       BigNumberRow_1 = 2;
-      BigNumberColumn = 4;
+      BigNumberColumn = 3;
       BigNumberNr = 2;
-      printBigNumber(Nr,0);
+      printBigInt(Nr);
 
       BigNumberRow_0 = 1;
       BigNumberRow_1 = 2;
       BigNumberColumn = 17;
       BigNumberNr = 4;
-      printBigNumber(Width,1);
+      printBigFloat(Width,1);
 }
 void Page_3()
 {
@@ -124,7 +124,7 @@ void Page_3()
         lcd.setCursor(0,0);
         lcd.print("Osszeg:");
         lcd.setCursor(0,2);
-        lcd.print("Darab:");
+        lcd.print(" Darab:");
         lcd.setCursor(0,3);
         lcd.print(" Terulet:");
 }
@@ -133,7 +133,7 @@ void Update_Page_3(float Area,float Sum,uint8_t Nr)
         BigNumberRow_0 = 0;
         BigNumberRow_1 = 1;
         BigNumberColumn = 17;
-        printBigNumber(Sum,1);
+        printBigFloat(Sum,1);
         lcd.setCursor(11,2);
         lcd.print(Nr);
         lcd.setCursor(11,3);
