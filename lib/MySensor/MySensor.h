@@ -11,9 +11,8 @@
 #define DIST_SENSOR_2_PIN   9
 #define DIST_SENSOR_3_PIN   10
 #define DIST_SENSOR_4_PIN   11
-#ifdef DEBUG_MAIN
-      //#define DEBUG_SENSOR
-#endif
+
+#define DEBUG_SENSOR
 
 extern float Sensor_Value;
 

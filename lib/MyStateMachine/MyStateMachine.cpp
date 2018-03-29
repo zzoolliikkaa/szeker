@@ -38,7 +38,7 @@ uint16_t SleepCounter = 0;
 void StateMachine_Setup()
 {
         uint8_t Rate_Integer, Rate_Decimal;
-        StateMachine =MEASURE_X;
+        StateMachine = MEASURE_X;
         Rate_Integer = EEPROM.read(RATE_ADDRESS);
 #ifdef DEBUG_STATE_MACHINE
         Serial.print(" EEPROM : Rate (RAW):");
@@ -124,7 +124,6 @@ void MyStateMachine_Mng()
                 }
                 if (Sensor_Value != 0)
                 {
-                        Sensor_Value = Sensor_Value / 100;
                         SleepCounter = 0;
                         if ( (Length + Sensor_Value) < 0 )
                         {
@@ -149,7 +148,7 @@ void MyStateMachine_Mng()
                         if (Length > 0)
                         {
                                 StateMachine = MEASURE_Y;
-                                Req_Page = 1;
+                                Req_Page = 2;
                                 Clear_All_Button = 1;
                         }
                 }
@@ -168,7 +167,7 @@ void MyStateMachine_Mng()
                         b_CLR_State = OLD;
                         Length = 0;
                 }
-                Update_Page_1(Nr,Length,Width,Area);
+                Update_Page_1(Length,Nr);
                 break;
         }
 
@@ -215,14 +214,13 @@ void MyStateMachine_Mng()
                                 AreaSum = AreaSum + Area;
                                 StateMachine = SUMMARY;
                                 detachInterrupt(digitalPinToInterrupt(SENSOR_PIN));
-                                Req_Page = 2;
+                                Req_Page = 3;
                                 Clear_All_Button = 1;
                         }
                 }
                 // Add the Sensor Value to the Width
                 if (Sensor_Value != 0)
                 {
-                        Sensor_Value = Sensor_Value / 100;
                         SleepCounter = 0;
                         if ( (Width + Sensor_Value) < 0 )
                         {
@@ -247,7 +245,7 @@ void MyStateMachine_Mng()
                         Width = 0;
                         Area = 0;
                 }
-                Update_Page_1(Nr,Length,Width,Area);
+                Update_Page_2(Width);
                 break;
         }
         case SUMMARY: {
@@ -271,7 +269,7 @@ void MyStateMachine_Mng()
                         Req_Page = 1;
                         Clear_All_Button = 1;
                 }
-                Update_Page_2(Nr,AreaSum,(float)(AreaSum * Rate));
+                Update_Page_3(AreaSum,(float)(AreaSum * Rate));
                 break;
         }
 
@@ -321,7 +319,7 @@ void MyStateMachine_Mng()
                 Req_Page = 1;
         }
  */
-                Update_Page_3(Rate);
+                Update_Page_4(Rate);
                 break;
         }
         case PRE_SLEEP: {

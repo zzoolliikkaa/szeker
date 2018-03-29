@@ -54,20 +54,16 @@ uint8_t Sensor_Mng()
              S1.Sensor_Bits.b3 +
              S1.Sensor_Bits.b4) == 1)
         {
-          // Ha a Senzorok ertekeinek ossszege = 1 akkor minden masodik valtozast veszunk figyelembe igy a felbontas 2 cm
                 if (Sensor_Data_Old != S1.Data)
                 {
-                  // Volt Senzor ertek valtozas az utolso ellenorzes ota ?
                         if (Sensor_Data_Old < S1.Data)
                         {
                                 Sensor_Value = Sensor_Value - 2;
                         }
                         if (Sensor_Data_Old > S1.Data)
                         {
-                                Sensor_Value = Sensor_Value + 2;;
+                                Sensor_Value = Sensor_Value + 2;
                         }
-                        // a Kovetkezokben a valtozas erteke azert 4 mert a fenti feltetelek kozul
-                        // vlmelyik mar teljesult es annak hatasat is ellensulyozni kell
                         if ((Sensor_Data_Old == 16) && (S1.Data == 1) )
                         {
                                 Sensor_Value = Sensor_Value - 4;
@@ -76,8 +72,21 @@ uint8_t Sensor_Mng()
                         {
                                 Sensor_Value = Sensor_Value + 4;
                         }
+
+                        Sensor_Value = Sensor_Value / 100;
+#ifdef DEBUG_SENSOR
+                        Serial.print(" Sensor :  ");
+                        Serial.print(S1.Sensor_Bits.b4);
+                        Serial.print(S1.Sensor_Bits.b3);
+                        Serial.print(S1.Sensor_Bits.b2);
+                        Serial.print(S1.Sensor_Bits.b1);
+                        Serial.print(S1.Sensor_Bits.b0);
+                        Serial.print(" = ");
+                        Serial.print(S1.Data);
+                        Serial.print(" = ");
+                        Serial.println(Sensor_Value);
+#endif
                 }
-                // Elmentjuk az aktualis Senzor erteket
                 Sensor_Data_Old = S1.Data;
         }
         return 0;

@@ -7,5 +7,5 @@
 *
 */
 
-//#define DEBUG_MAIN
+#define DEBUG_MAIN
 #define HEART_BEAT_LED_PIN       13

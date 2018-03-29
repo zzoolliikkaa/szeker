@@ -7,14 +7,11 @@
 *
 */
 #define MEASURE_X       1
-#define SLEEP_TIMER     40    /* Real Time = SLEEP_TIMER * 300 ms ( Task cycle) */
+#define SLEEP_TIMER     400    /* Real Time = SLEEP_TIMER * 300 ms ( Task cycle) */
 #define WAKE_UP_PIN     2
 #define SENSOR_PIN      3
 
 #define RATE_ADDRESS    1
-#ifdef DEBUG_MAIN
-        //#define DEBUG_STATE_MACHINE
-#endif
-
+#define DEBUG_STATE_MACHINE
 void StateMachine_Setup();
 void MyStateMachine_Mng();

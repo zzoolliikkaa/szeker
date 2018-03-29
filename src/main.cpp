@@ -82,6 +82,8 @@ void Task_10ms()
          */
         Button_Acq();   //  ~ 1 ms
 
+        Sensor_Mng();   //  ~ 1 - 2 ms
+
 }
 
 /**

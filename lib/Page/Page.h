@@ -17,8 +17,10 @@ void Page_Setup();
 void Page_Act(uint8_t);
 
 void Page_1();
-void Update_Page_1(int,float,float,float );        // ~ 52 ms
+void Update_Page_1(float,uint8_t);
 void Page_2();
-void Update_Page_2(int,float,float );             //  ~ 37 ms
+void Update_Page_2(float);
 void Page_3();
-void Update_Page_3(float );                       // ~ 8 ms
+void Update_Page_3(float,float);
+void Page_4();
+void Update_Page_4(float);
