@@ -4,7 +4,8 @@
 #include <MyStateMachine.h>
 #include <MyChar.h>
 
-LiquidCrystal_I2C lcd(0x3F,20,4); // Set the LCD I2C address
+//LiquidCrystal_I2C lcd(0x3F,20,4); // Set the LCD I2C address
+LiquidCrystal_I2C lcd(0x27,20,4); // Set the LCD I2C address
 uint8_t Act_Page = 0;
 uint8_t Req_Page = 0;
 uint8_t Lcd_State = LCD_ON;

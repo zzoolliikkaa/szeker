@@ -294,7 +294,7 @@ void printBigInt(uint8_t number)
   number = number / 10;
   x10 = number % 10;
   number = number / 10;
-  
+
   printNumber(x10, BigNumberColumn -3);
   printNumber(x1, BigNumberColumn );
 }
@@ -302,11 +302,11 @@ void printBigInt(uint8_t number)
 void printLine()
 {
   lcd.setCursor(BigNumberColumn,0);
-  lcd.write(0xFF);
+  lcd.write(0x7C);
   lcd.setCursor(BigNumberColumn,1);
-  lcd.write(0xFF);
+  lcd.write(0x7C);
   lcd.setCursor(BigNumberColumn,2);
-  lcd.write(0xFF);
+  lcd.write(0x7C);
   lcd.setCursor(BigNumberColumn,3);
-  lcd.write(0xFF);
+  lcd.write(0x7C);
 }

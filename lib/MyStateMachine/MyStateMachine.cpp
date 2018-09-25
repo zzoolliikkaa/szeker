@@ -87,12 +87,12 @@ void MyStateMachine_Mng()
         if ((StateMachine != PRE_SLEEP) && (StateMachine != SLEEP) && (StateMachine != WAKE_UP))
         {
                 SleepCounter = SleepCounter + 1;
-/*
+
 #ifdef DEBUG_STATE_MACHINE
                 Serial.print(" Sleep Counter ");
                 Serial.println(SleepCounter);
 #endif
-*/
+
         }
 
         if (SLEEP_TIMER == SleepCounter)
@@ -114,7 +114,7 @@ void MyStateMachine_Mng()
  #ifdef DEBUG_STATE_MACHINE
                 Serial.println(" State : MEASURE_X ");
  #endif
- */
+*/
                 // Csak PROBA
                 if (PRESSED == b_M_ft_State)
                 {
@@ -133,10 +133,12 @@ void MyStateMachine_Mng()
                         {
                                 Length = Length + Sensor_Value;
                                 Sensor_Value = 0;
+/*
                     #ifdef DEBUG_STATE_MACHINE
                                 Serial.print(" Length : ");
                                 Serial.println(Length);
                     #endif
+*/
                         }
                 }
                 // Csak PROBA VEGE
@@ -177,7 +179,7 @@ void MyStateMachine_Mng()
  #ifdef DEBUG_STATE_MACHINE
                 Serial.println(" State : MEASURE_Y ");
  #endif
- */
+*/
                 // Csak PROBA
                 if (PRESSED == b_M_ft_State)
                 {
@@ -232,10 +234,12 @@ void MyStateMachine_Mng()
                         }
                         Area = Length * Width;
                         Sensor_Value = 0;
+/*
                     #ifdef DEBUG_STATE_MACHINE
                         Serial.print(" Width : ");
                         Serial.println(Width);
                     #endif
+*/
                 }
                 // Clear the actual measurement
                 if (RELEASED == b_CLR_State)
@@ -254,7 +258,7 @@ void MyStateMachine_Mng()
  #ifdef DEBUG_STATE_MACHINE
                 Serial.println(" State : SUMMARY ");
  #endif
- */
+*/
                 if (RELEASED == b_CLR_State)
                 {
                         SleepCounter = 0;
@@ -279,7 +283,7 @@ void MyStateMachine_Mng()
  #ifdef DEBUG_STATE_MACHINE
                 Serial.println(" State : SETTINGS ");
  #endif
- */
+*/
                 // Increment Rate value
                 if ((PRESSED == b_SM_State) && (Rate < 25.4) )
                 {
