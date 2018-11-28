@@ -14,14 +14,20 @@
 #include <MyButton.h>
 #include <MySensor.h>
 #include <MyStateMachine.h>
+#include <MyBattery.h>
 
 void Task_10ms();
 void Task_100ms();
 void Task_300ms();
+void Task_1000ms();
+
+long ms = 0;
+#define BATTERY_REFRESH_TIME 5000
 
 jm_Scheduler Sch_10ms;
 jm_Scheduler Sch_100ms;
 jm_Scheduler Sch_300ms;
+jm_Scheduler Sch_1000ms;
 uint8_t Heart_Beat_LED = 0;
 
 /**
@@ -43,9 +49,11 @@ void setup()
         Page_Setup();
         Sensor_Setup();
         StateMachine_Setup();
+        Battery_Setup();
         Sch_10ms.start(Task_10ms,10000);    // 10 msec
         Sch_100ms.start(Task_100ms,100000);   // 100 msec
         Sch_300ms.start(Task_300ms,300000);   // 300 msec
+        Sch_1000ms.start(Task_1000ms,1000000);   // 1000 msec
   #ifdef DEBUG_MAIN
         Serial.println(" Setup end. " );
   #endif
@@ -61,6 +69,12 @@ void setup()
 void loop()
 {
         jm_Scheduler::cycle();
+
+if (millis() - ms > BATTERY_REFRESH_TIME) {
+        battery_percentage = battery.level();
+        ms = millis();
+    }
+
 }
 
 /**
@@ -82,7 +96,7 @@ void Task_10ms()
          */
         Button_Acq();   //  ~ 1 ms
 
-        Sensor_Mng();   //  ~ 1 - 2 ms
+        //Sensor_Mng();   //  ~ 1 - 2 ms
 
 }
 
@@ -131,3 +145,7 @@ Start = millis();
         Serial.print(" =  ");
         Serial.println((Stop - Start));
 */
+void Task_1000ms()
+{
+
+}

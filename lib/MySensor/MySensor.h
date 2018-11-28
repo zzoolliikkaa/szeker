@@ -6,11 +6,9 @@
  * @brief <brief>
  *
  */
-#define DIST_SENSOR_0_PIN   7
-#define DIST_SENSOR_1_PIN   8
-#define DIST_SENSOR_2_PIN   9
-#define DIST_SENSOR_3_PIN   10
-#define DIST_SENSOR_4_PIN   11
+#define DIST_SENSOR_0_PIN   3
+#define DIST_SENSOR_1_PIN   2
+
 
 #define DEBUG_SENSOR
 

@@ -10,68 +10,64 @@
 #include <Button.h>
 #include <MyButton.h>
 
-Button b_M_ft(BUTTON_M_FT_PIN, PULLUP, INVERT, DEBOUNCE_MS); //Declare the button
-Button b_SM(BUTTON_SM_PIN, PULLUP, INVERT, DEBOUNCE_MS); //Declare the button
-Button b_RM(BUTTON_RM_PIN, PULLUP, INVERT, DEBOUNCE_MS); //Declare the button
+Button b_SETTINGS(BUTTON_SETTINGS_PIN, PULLUP, INVERT, DEBOUNCE_MS); //Declare the button
+Button b_SUMM(BUTTON_SUMM_PIN, PULLUP, INVERT, DEBOUNCE_MS); //Declare the button
+Button b_NEXT(BUTTON_NEXT_PIN, PULLUP, INVERT, DEBOUNCE_MS); //Declare the button
 Button b_CLR(BUTTON_CLR_PIN, PULLUP, INVERT, DEBOUNCE_MS); //Declare the button
-Button b_ON_OFF(BUTTON_ON_OFF_PIN, PULLUP, INVERT, DEBOUNCE_MS); //Declare the button
 
-uint8_t b_M_ft_State;
-uint8_t b_SM_State;
-uint8_t b_RM_State;
+uint8_t b_SETTINGS_State;
+uint8_t b_SUMM_State;
+uint8_t b_NEXT_State;
 uint8_t b_CLR_State;
-uint8_t b_ON_OFF_State;
 uint8_t Clear_All_Button;
 
 uint8_t Button_Setup()
 {
-        b_M_ft_State = OLD;
-        b_M_ft_State = OLD;
-        b_SM_State = OLD;
-        b_RM_State = OLD;
+        b_SETTINGS_State = OLD;
+        b_SETTINGS_State = OLD;
+        b_SUMM_State = OLD;
+        b_NEXT_State = OLD;
         b_CLR_State = OLD;
-        b_ON_OFF_State = OLD;
         return 0;
 }
 
 uint8_t Button_Acq()
 {
-        b_M_ft.read();
-        b_SM.read();
-        b_RM.read();
+        b_SETTINGS.read();
+        b_SUMM.read();
+        b_NEXT.read();
         b_CLR.read();
-        b_ON_OFF.read();
         return 0;
 }
 
 uint8_t Button_Mng()
 {
 
-        if (b_M_ft.isPressed())
+        if (b_SETTINGS.isPressed())
         {
-                b_M_ft_State = 1;
+                b_SETTINGS_State = 1;
         }
-        if ((b_M_ft.isReleased()) && (b_M_ft_State == 1))
+        if ((b_SETTINGS.isReleased()) && (b_SETTINGS_State == 1))
         {
-                b_M_ft_State = 0;
-        }
-
-        if (b_SM.isPressed())
-        {
-                b_SM_State = 1;
-        }
-        if ((b_SM.isReleased()) && (b_SM_State == 1))
-        {
-                b_SM_State = 0;
+                b_SETTINGS_State = 0;
         }
 
-        if (b_RM.isPressed())
+        if (b_SUMM.isPressed())
         {
-                b_RM_State = 1;
+                b_SUMM_State = 1;
         }
-        if ((b_RM.isReleased()) && (b_RM_State == 1))
+        if ((b_SUMM.isReleased()) && (b_SUMM_State == 1))
         {
-                b_RM_State = 0;
+                b_SUMM_State = 0;
+        }
+
+        if (b_NEXT.isPressed())
+        {
+                b_NEXT_State = 1;
+        }
+        if ((b_NEXT.isReleased()) && (b_NEXT_State == 1))
+        {
+                b_NEXT_State = 0;
         }
 
         if (b_CLR.isPressed())
@@ -83,22 +79,14 @@ uint8_t Button_Mng()
                 b_CLR_State = 0;
         }
 
-        if (b_ON_OFF.isPressed())
-        {
-                b_ON_OFF_State = 1;
-        }
-        if ((b_ON_OFF.isReleased()) && (b_ON_OFF_State == 1))
-        {
-                b_ON_OFF_State = 0;
-        }
+
         if (1 == Clear_All_Button)
         {
-                b_M_ft_State = OLD;
-                b_M_ft_State = OLD;
-                b_SM_State = OLD;
-                b_RM_State = OLD;
+                b_SETTINGS_State = OLD;
+                b_SETTINGS_State = OLD;
+                b_SUMM_State = OLD;
+                b_NEXT_State = OLD;
                 b_CLR_State = OLD;
-                b_ON_OFF_State = OLD;
                 Clear_All_Button = 0;
         }
         return 0;

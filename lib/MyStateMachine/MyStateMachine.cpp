@@ -17,7 +17,7 @@
 #define MEASURE_Y       2
 #define SUMMARY         3
 #define SETTINGS        4
-#define PRE_SLEEP        5
+#define PRE_SLEEP       5
 #define SLEEP           6
 #define WAKE_UP         7
 
@@ -34,6 +34,7 @@ float AreaSum = 0;
 float Rate = 0;
 float Rate_old = 0;
 uint16_t SleepCounter = 0;
+
 
 void StateMachine_Setup()
 {
@@ -64,12 +65,15 @@ void StateMachine_Setup()
                 Req_Page = 1;
         }
 
-        pinMode(WAKE_UP_PIN, INPUT_PULLUP);
-        pinMode(SENSOR_PIN, INPUT);
+        //pinMode(WAKE_UP_PIN, INPUT);
+        pinMode(SENSOR_PIN_1, INPUT);
+        pinMode(SENSOR_PIN_2, INPUT);
         SleepCounter = 0;
         if (MEASURE_X == StateMachine)
         {
-                attachInterrupt(digitalPinToInterrupt(SENSOR_PIN),Sensor_Acq, CHANGE);
+                attachInterrupt(digitalPinToInterrupt(SENSOR_PIN_1),Sensor_Acq, CHANGE);
+                attachInterrupt(digitalPinToInterrupt(SENSOR_PIN_2),Sensor_Acq, CHANGE);
+
         }
 }
 
@@ -110,18 +114,19 @@ void MyStateMachine_Mng()
         switch (StateMachine)
         {
         case MEASURE_X: {
-/*
+
  #ifdef DEBUG_STATE_MACHINE
                 Serial.println(" State : MEASURE_X ");
  #endif
-*/
-                // Csak PROBA
-                if (PRESSED == b_M_ft_State)
-                {
+
+                /* Csak PROBA
+                   if (PRESSED == b_SETTINGS_State)
+                   {
                         SleepCounter = 0;
-                        b_M_ft_State = OLD;
+                        b_SETTINGS_State = OLD;
                         Length = Length + 0.2;
-                }
+                   }
+                 */// Csak PROBA VEGE
                 if (Sensor_Value != 0)
                 {
                         SleepCounter = 0;
@@ -132,21 +137,22 @@ void MyStateMachine_Mng()
                         else
                         {
                                 Length = Length + Sensor_Value;
-                                Sensor_Value = 0;
+                                //Sensor_Value = 0;
 /*
-                    #ifdef DEBUG_STATE_MACHINE
+ #ifdef DEBUG_STATE_MACHINE
                                 Serial.print(" Length : ");
                                 Serial.println(Length);
-                    #endif
-*/
+ #endif
+ */
                         }
+                        Sensor_Value = 0;
                 }
-                // Csak PROBA VEGE
+
                 // Enter the Measure_y Page
-                if (RELEASED == b_RM_State)
+                if (RELEASED == b_NEXT_State)
                 {
                         SleepCounter = 0;
-                        b_RM_State = OLD;
+                        b_NEXT_State = OLD;
                         if (Length > 0)
                         {
                                 StateMachine = MEASURE_Y;
@@ -155,13 +161,15 @@ void MyStateMachine_Mng()
                         }
                 }
                 // Enter to the Settings Page
-/*                if (PRESSED == b_CLR_State)
+                if (PRESSED == b_SETTINGS_State)
                 {
                         StateMachine = SETTINGS;
-                        Req_Page = 3;
+                        SleepCounter = 0;
+                        b_SETTINGS_State = OLD;
+                        Req_Page = 4;
                 }
-                break;
- */
+
+
                 // Clear the actual measurement
                 if (PRESSED == b_CLR_State)
                 {
@@ -175,25 +183,25 @@ void MyStateMachine_Mng()
 
         case MEASURE_Y: {
                 // Set Measure Page in the LCD
-/*
+
  #ifdef DEBUG_STATE_MACHINE
                 Serial.println(" State : MEASURE_Y ");
  #endif
-*/
-                // Csak PROBA
-                if (PRESSED == b_M_ft_State)
-                {
+
+                /* Csak PROBA
+                   if (PRESSED == b_SETTINGS_State)
+                   {
                         SleepCounter = 0;
-                        b_M_ft_State = OLD;
+                        b_SETTINGS_State = OLD;
                         Width = Width + 0.2;
                         Area = Length * Width;
-                }
-                // Csak PROBA VEGE
+                   }
+                 */// Csak PROBA VEGE
 
-                if (RELEASED == b_RM_State)
+                if (RELEASED == b_NEXT_State)
                 {
                         SleepCounter = 0;
-                        b_RM_State = OLD;
+                        b_NEXT_State = OLD;
                         if (Width > 0)
                         {
                                 Nr = Nr + 1;
@@ -207,15 +215,16 @@ void MyStateMachine_Mng()
                         }
                 }
                 // Enter the Summary Page
-                if (RELEASED == b_SM_State)
+                if (RELEASED == b_SUMM_State)
                 {
                         SleepCounter = 0;
-                        b_SM_State = OLD;
+                        b_SUMM_State = OLD;
                         if (Width > 0)
                         {
                                 AreaSum = AreaSum + Area;
                                 StateMachine = SUMMARY;
-                                detachInterrupt(digitalPinToInterrupt(SENSOR_PIN));
+                                detachInterrupt(digitalPinToInterrupt(SENSOR_PIN_1));
+                                detachInterrupt(digitalPinToInterrupt(SENSOR_PIN_2));
                                 Req_Page = 3;
                                 Clear_All_Button = 1;
                         }
@@ -235,11 +244,11 @@ void MyStateMachine_Mng()
                         Area = Length * Width;
                         Sensor_Value = 0;
 /*
-                    #ifdef DEBUG_STATE_MACHINE
+ #ifdef DEBUG_STATE_MACHINE
                         Serial.print(" Width : ");
                         Serial.println(Width);
-                    #endif
-*/
+ #endif
+ */
                 }
                 // Clear the actual measurement
                 if (RELEASED == b_CLR_State)
@@ -254,11 +263,11 @@ void MyStateMachine_Mng()
         }
         case SUMMARY: {
                 // Set Summary Page in the LCD
-/*
+
  #ifdef DEBUG_STATE_MACHINE
                 Serial.println(" State : SUMMARY ");
  #endif
-*/
+
                 if (RELEASED == b_CLR_State)
                 {
                         SleepCounter = 0;
@@ -269,7 +278,8 @@ void MyStateMachine_Mng()
                         Area = 0;
                         AreaSum = 0;
                         StateMachine = MEASURE_X;
-                        attachInterrupt(digitalPinToInterrupt(SENSOR_PIN),Sensor_Acq, CHANGE);
+                        attachInterrupt(digitalPinToInterrupt(SENSOR_PIN_1),Sensor_Acq, CHANGE);
+                        attachInterrupt(digitalPinToInterrupt(SENSOR_PIN_2),Sensor_Acq, CHANGE);
                         Req_Page = 1;
                         Clear_All_Button = 1;
                 }
@@ -279,30 +289,30 @@ void MyStateMachine_Mng()
 
         case SETTINGS: {
                 // Set page in the LCD
-/*
+
  #ifdef DEBUG_STATE_MACHINE
                 Serial.println(" State : SETTINGS ");
  #endif
-*/
+
                 // Increment Rate value
-                if ((PRESSED == b_SM_State) && (Rate < 25.4) )
+                if ((PRESSED == b_SUMM_State) && (Rate < 25.4) )
                 {
                         SleepCounter = 0;
-                        b_SM_State = OLD;
+                        b_SUMM_State = OLD;
                         Rate = Rate + 0.1;
                 }
                 // Decrement Rate value
-                if ( (PRESSED == b_RM_State) && (Rate > 0.1) )
+                if ( (PRESSED == b_NEXT_State) && (Rate > 0.1) )
                 {
                         SleepCounter = 0;
-                        b_RM_State = OLD;
+                        b_NEXT_State = OLD;
                         Rate = Rate - 0.1;
                 }
                 // Save new Rate value to the EEProm
-                if (RELEASED == b_M_ft_State)
+                if (PRESSED == b_SETTINGS_State)
                 {
                         SleepCounter = 0;
-                        b_M_ft_State = OLD;
+                        b_SETTINGS_State = OLD;
                         if (Rate != Rate_old)
                         {
  #ifdef DEBUG_STATE_MACHINE
@@ -312,10 +322,12 @@ void MyStateMachine_Mng()
                                 EEPROM.update(RATE_ADDRESS, (uint8_t)(Rate*10));
                         }
                         StateMachine = MEASURE_X;
-                        attachInterrupt(digitalPinToInterrupt(SENSOR_PIN),Sensor_Acq, CHANGE);
+                        attachInterrupt(digitalPinToInterrupt(SENSOR_PIN_1),Sensor_Acq, CHANGE);
+                        attachInterrupt(digitalPinToInterrupt(SENSOR_PIN_2),Sensor_Acq, CHANGE);
                         Req_Page = 1;
                         Clear_All_Button = 1;
                 }
+                SleepCounter = 0;
 /*
         // Reset the Rate value to 0
         if (b_CLR.pressedFor(5000) )
@@ -332,6 +344,8 @@ void MyStateMachine_Mng()
 #ifdef DEBUG_STATE_MACHINE
                 Serial.println(" State : PRESLEEP ");
 #endif
+                attachInterrupt(digitalPinToInterrupt(SENSOR_PIN_1),Sensor_Acq, CHANGE);
+                attachInterrupt(digitalPinToInterrupt(SENSOR_PIN_2),Sensor_Acq, CHANGE);
                 digitalWrite(HEART_BEAT_LED_PIN, 0);
                 /* Preparing to the SLEEP Mode */
 //                Lcd_State = LCD_OFF;
@@ -345,7 +359,7 @@ void MyStateMachine_Mng()
 #endif
                 set_sleep_mode(SLEEP_MODE_PWR_DOWN);
                 sleep_enable();
-                attachInterrupt(digitalPinToInterrupt(WAKE_UP_PIN),WakeUpNow, RISING);
+                //attachInterrupt(digitalPinToInterrupt(WAKE_UP_PIN),WakeUpNow, RISING);
                 /* Entering to the SLEEP Mode */
                 sleep_mode();
 
@@ -353,7 +367,7 @@ void MyStateMachine_Mng()
 
                 /* Exiting from the SLEEP Mode */
                 sleep_disable();
-                detachInterrupt(digitalPinToInterrupt(WAKE_UP_PIN));
+                //detachInterrupt(digitalPinToInterrupt(WAKE_UP_PIN));
 
                 StateMachine = WAKE_UP;
 
@@ -368,6 +382,8 @@ void MyStateMachine_Mng()
                 /* Restoring the Previous State */
                 StateMachine = OldStateMachine;
                 SleepCounter = 0;
+                detachInterrupt(digitalPinToInterrupt(SENSOR_PIN_1));
+                detachInterrupt(digitalPinToInterrupt(SENSOR_PIN_2));
                 break;
         }
         }

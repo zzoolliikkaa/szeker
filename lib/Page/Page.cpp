@@ -3,9 +3,10 @@
 #include <Page.h>
 #include <MyStateMachine.h>
 #include <MyChar.h>
+#include <MyBattery.h>
 
-//LiquidCrystal_I2C lcd(0x3F,20,4); // Set the LCD I2C address
-LiquidCrystal_I2C lcd(0x27,20,4); // Set the LCD I2C address
+LiquidCrystal_I2C lcd(0x3F,20,4); // Set the LCD I2C address
+//LiquidCrystal_I2C lcd(0x27,20,4); // Set the LCD I2C address
 uint8_t Act_Page = 0;
 uint8_t Req_Page = 0;
 uint8_t Lcd_State = LCD_ON;
@@ -80,6 +81,12 @@ void Page_1()
         printLine();
         lcd.setCursor(7,0);
         lcd.print("  Hosszusag");
+        lcd.setCursor(3,3);
+        lcd.print("Akkumulator:    %");
+        lcd.setCursor(16,3);
+        lcd.print(battery_percentage_formated);
+
+
 }
 void Update_Page_1(float Length,uint8_t Nr)
 {
@@ -94,6 +101,8 @@ void Update_Page_1(float Length,uint8_t Nr)
         BigNumberColumn = 17;
         BigNumberNr = 4;
         printBigFloat(Length,1);
+        lcd.setCursor(16,3);
+        lcd.print(battery_percentage_formated);
 }
 void Page_2()
 {
@@ -104,6 +113,11 @@ void Page_2()
       printLine();
       lcd.setCursor(7,0);
       lcd.print("  Szelesseg");
+      lcd.setCursor(3,3);
+      lcd.print("Akkumulator:    %");
+      lcd.setCursor(16,3);
+      lcd.print(battery_percentage_formated);
+
 }
 void Update_Page_2(float Width,uint8_t Nr)
 {
@@ -118,6 +132,8 @@ void Update_Page_2(float Width,uint8_t Nr)
       BigNumberColumn = 17;
       BigNumberNr = 4;
       printBigFloat(Width,1);
+      lcd.setCursor(16,3);
+      lcd.print(battery_percentage_formated);
 }
 void Page_3()
 {
@@ -151,15 +167,15 @@ void Page_4()
 
         // 2nd line
         lcd.setCursor(0,1);
-        lcd.print("     SM: +10 bani");
+        lcd.print("      SUM: +10 bani");
 
         //3 line
         lcd.setCursor(0,2);
-        lcd.print("     RM: -10 bani");
+        lcd.print("KOVETKEZO: -10 bani");
 
         //4 line
         lcd.setCursor(0,3);
-        lcd.print("     M/Ft: Mentes ");
+        lcd.print("       AR: Mentes ");
 }
 void Update_Page_4(float Rate)
 {

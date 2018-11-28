@@ -29,67 +29,38 @@ union Sensor S1;
 
 uint8_t Sensor_Setup()
 {
-        pinMode(DIST_SENSOR_0_PIN, INPUT_PULLUP);
-        pinMode(DIST_SENSOR_1_PIN, INPUT_PULLUP);
-        pinMode(DIST_SENSOR_2_PIN, INPUT_PULLUP);
-        pinMode(DIST_SENSOR_3_PIN, INPUT_PULLUP);
-        pinMode(DIST_SENSOR_4_PIN, INPUT_PULLUP);
+        pinMode(DIST_SENSOR_0_PIN, INPUT);
+        pinMode(DIST_SENSOR_1_PIN, INPUT);
         return 0;
 }
 
 void Sensor_Acq()
 {
-        S1.Sensor_Bits.b0 = !digitalRead(DIST_SENSOR_4_PIN);
-        S1.Sensor_Bits.b1 = !digitalRead(DIST_SENSOR_1_PIN);
-        S1.Sensor_Bits.b2 = !digitalRead(DIST_SENSOR_3_PIN);
-        S1.Sensor_Bits.b3 = !digitalRead(DIST_SENSOR_0_PIN);
-        S1.Sensor_Bits.b4 = !digitalRead(DIST_SENSOR_2_PIN);
+        S1.Sensor_Bits.b0 = digitalRead(DIST_SENSOR_0_PIN);
+        S1.Sensor_Bits.b1 = digitalRead(DIST_SENSOR_1_PIN);
         Sensor_Mng();
 }
 uint8_t Sensor_Mng()
 {
-        if ((S1.Sensor_Bits.b0 +
-             S1.Sensor_Bits.b1 +
-             S1.Sensor_Bits.b2 +
-             S1.Sensor_Bits.b3 +
-             S1.Sensor_Bits.b4) == 1)
+        if(S1.Sensor_Bits.b0 == HIGH)
         {
-                if (Sensor_Data_Old != S1.Data)
-                {
-                        if (Sensor_Data_Old < S1.Data)
-                        {
-                                Sensor_Value = Sensor_Value - 2;
-                        }
-                        if (Sensor_Data_Old > S1.Data)
-                        {
-                                Sensor_Value = Sensor_Value + 2;
-                        }
-                        if ((Sensor_Data_Old == 16) && (S1.Data == 1) )
-                        {
-                                Sensor_Value = Sensor_Value - 4;
-                        }
-                        if ((Sensor_Data_Old == 1) && (S1.Data  == 16))
-                        {
-                                Sensor_Value = Sensor_Value + 4;
-                        }
+              Sensor_Value = Sensor_Value + 0.02;
+        }
+        if(S1.Sensor_Bits.b1 == HIGH)
+        {
+              Sensor_Value = Sensor_Value - 0.02;
+        }
 
-                        Sensor_Value = Sensor_Value / 100;
 #ifdef DEBUG_SENSOR
                         Serial.print(" Sensor :  ");
-                        Serial.print(S1.Sensor_Bits.b4);
-                        Serial.print(S1.Sensor_Bits.b3);
-                        Serial.print(S1.Sensor_Bits.b2);
-                        Serial.print(S1.Sensor_Bits.b1);
                         Serial.print(S1.Sensor_Bits.b0);
-                        Serial.print(" = ");
-                        Serial.print(S1.Data);
+                        Serial.print(S1.Sensor_Bits.b1);
                         Serial.print(" = ");
                         Serial.println(Sensor_Value);
 #endif
-                }
-                Sensor_Data_Old = S1.Data;
-        }
-        return 0;
+      //Sensor_Value = Sensor_Value / 100;
+
+      return 0;
 }
 
 uint8_t Sensor_Act()

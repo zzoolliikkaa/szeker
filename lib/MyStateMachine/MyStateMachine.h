@@ -8,8 +8,9 @@
 */
 #define MEASURE_X       1
 #define SLEEP_TIMER     400    /* Real Time = SLEEP_TIMER * 300 ms ( Task cycle) */
-#define WAKE_UP_PIN     2
-#define SENSOR_PIN      3
+//#define WAKE_UP_PIN     2
+#define SENSOR_PIN_1      3
+#define SENSOR_PIN_2      2
 #define HEART_BEAT_LED_PIN       13
 
 #define RATE_ADDRESS    1
