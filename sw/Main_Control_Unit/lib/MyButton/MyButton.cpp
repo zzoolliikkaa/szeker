@@ -7,7 +7,7 @@
  *
  */
 
-#include <Button.h>
+#include <JC_Button.h>
 #include <MyButton.h>
 
 Button b_SETTINGS(BUTTON_SETTINGS_PIN, PULLUP, INVERT, DEBOUNCE_MS); //Declare the button
